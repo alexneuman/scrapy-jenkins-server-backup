@@ -1,0 +1,10 @@
+commit 8ca0ebde37edd3a35524ce7ae7e05648b72967cf
+tree 74ad792d76f69142562564acb5eae1f76f6056b6
+parent e74845160a2bc9b90aaf87385d7d8f3dc47c80d8
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 17:21:36 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 17:21:36 -0700
+
+    pass SPIDER_NAME to job completion stage
+
+
+:100644 100644 70a95c70c00f5eb95275ff4a9b19efea774bfd36 b0fa83effa3e4e1a6dc5f3942b78e7210b084d1a M	jenkins/Jenkinsfile-main

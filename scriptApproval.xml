@@ -1,0 +1,23 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1354.va_70a_fe478c7f">
+  <approvedScriptHashes/>
+  <approvedSignatures>
+    <string>method groovy.lang.GroovyObject invokeMethod java.lang.String java.lang.Object</string>
+    <string>method hudson.model.Job getBuildByNumber int</string>
+    <string>method hudson.model.Job getProperty java.lang.String</string>
+    <string>method hudson.model.Run getEnvironment hudson.model.TaskListener</string>
+    <string>method hudson.model.Run isBuilding</string>
+    <string>method hudson.model.ViewGroup getView java.lang.String</string>
+    <string>method jenkins.model.Jenkins getItemByFullName java.lang.String</string>
+    <string>new java.io.File java.lang.String</string>
+    <string>staticField hudson.model.TaskListener NULL</string>
+    <string>staticMethod jenkins.model.Jenkins getInstance</string>
+    <string>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods findAll java.lang.Object groovy.lang.Closure</string>
+    <string>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods putAt java.lang.Object java.lang.String java.lang.Object</string>
+  </approvedSignatures>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts/>
+  <pendingSignatures/>
+  <pendingClasspathEntries/>
+</scriptApproval>

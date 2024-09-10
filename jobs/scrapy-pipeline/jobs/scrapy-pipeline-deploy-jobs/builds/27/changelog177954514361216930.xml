@@ -1,0 +1,13 @@
+commit 78b2809e5c11e627c5892699414e492b583e0f49
+tree 8d453517536392d898871625f8c0e4f9141f8d77
+parent 88be72da9923efacf36e6f9b6613c7edae04da58
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 16:59:30 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 16:59:30 -0700
+
+    cleanip of unnecessary code
+
+
+:100644 100644 3c3cc21d083eee5ccdc7930f4735fd7bee276138 dfa96dae6fee7f82bca83740846a725e232e9e45 M	jenkins/Jenkinsfile-build-image
+:100644 100644 5b3e26e8c4ed31414c5d0b919ac1a70efe2a50a0 d6432f15b3ae849b183976f3372df4673d4f15b6 M	jenkins/Jenkinsfile-deploy
+:100644 100644 1dd0709e85e50a28680fc924ef5caea0308d91a8 70a95c70c00f5eb95275ff4a9b19efea774bfd36 M	jenkins/Jenkinsfile-main
+:100644 100644 58fef50af0b2ab3c61fcbeb4595140342a411ab5 771da5dc56e5060b365591138b97abb0c31e30ef M	jenkins/Jenkinsfile-wait-for-job-completion

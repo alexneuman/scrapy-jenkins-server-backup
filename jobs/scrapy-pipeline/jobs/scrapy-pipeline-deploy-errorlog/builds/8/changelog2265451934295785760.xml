@@ -1,0 +1,20 @@
+commit 289206b2e42fbd03d93567f282b37346c541fd4b
+tree c92e764e90def59bb342ed6a81f677bd051c4737
+parent 823ff46dd84cc98bbd286afa1e112788622e4f2c
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:54:46 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:54:46 -0700
+
+    parameterize SPIDER_REPLICAS for resume-job
+
+
+:100644 100644 f789b6ce13f68f9dc1b748500dedb16a06bfdd23 6940b6289866c8db386579f95d008ca91c0a4f8d M	jenkins/Jenkinsfile-resume-job
+commit 823ff46dd84cc98bbd286afa1e112788622e4f2c
+tree 042bd8fa893fd9d3b99a9d8be646d748588baba8
+parent cfc37a1ede77a990604f4f8ac362c934a8da703a
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:34:33 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:34:33 -0700
+
+    remove original Jenkinsfile
+
+
+:100644 000000 8689813a98230c12e55d241cd5c97d4f7d55c9f3 0000000000000000000000000000000000000000 D	Jenkinsfile

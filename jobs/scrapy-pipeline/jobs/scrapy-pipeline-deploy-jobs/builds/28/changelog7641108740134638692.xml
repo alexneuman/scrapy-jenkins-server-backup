@@ -1,0 +1,11 @@
+commit e74845160a2bc9b90aaf87385d7d8f3dc47c80d8
+tree f74f11e1c7d8d1cd97846702dfd1e1d0e1e725c0
+parent 78b2809e5c11e627c5892699414e492b583e0f49
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 17:17:32 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 17:17:32 -0700
+
+    remove duplication of word 'scrapy' in job name
+
+
+:100644 100644 d6432f15b3ae849b183976f3372df4673d4f15b6 4b909a9008cd6837cab1b53296ac7b434bc8da62 M	jenkins/Jenkinsfile-deploy
+:100644 100644 c890d6a17ef2fbbbdc3cdf9f035696c699450cc3 99a57924e5c762d1751bbfb9bc61f6fbe5a64d3e M	jenkins/Jenkinsfile-update-job

@@ -1,0 +1,10 @@
+commit c476201c05b926c59eb86158f73bebd8929a1b9f
+tree 256b77b43805970820d1305208958bdd642d9857
+parent 2c707a87e1238f42b8add71469eed8e6be765354
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:28:01 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:28:01 -0700
+
+    remove timeout from jobs wai-for-completion
+
+
+:100644 100644 6e95ffa1645b5830f8687df435f189898d6df8d3 cbb8ba319ca1be1ae0d3c77dedaac2b0bbe7f701 M	jenkins/Jenkinsfile-wait-for-job-completion

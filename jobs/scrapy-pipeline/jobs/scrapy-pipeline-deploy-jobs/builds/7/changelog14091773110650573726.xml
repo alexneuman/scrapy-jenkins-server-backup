@@ -1,0 +1,10 @@
+commit cfc37a1ede77a990604f4f8ac362c934a8da703a
+tree 7ca2401c2f4ddadb65913c12b5be836deabba4f0
+parent 5cdc2c15dcfe08ea36da5f9935d6247ac6d05760
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:04:24 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:04:24 -0700
+
+    removed commented code
+
+
+:100755 100755 518bc72bf7b5953828f92895d54a54d816d5ada4 f04584de2b21034061cf6391408bed923e0397de M	k8s/helm/templates/scrapy/scrapy-job.yaml

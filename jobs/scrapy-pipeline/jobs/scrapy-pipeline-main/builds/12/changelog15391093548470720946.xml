@@ -1,0 +1,1352 @@
+commit 7cb189062bc6a2246414b32faa18a49cc3a11dfe
+tree 487e68e6a437249738698756692b0c4e3a691b4f
+parent 8893bbc79d96d5aaae85a7e353b00507199be79e
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 09:39:59 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 09:39:59 -0700
+
+    remove hard coded value
+
+
+:100644 100644 f4e6b791ba9f09c95538fdfdf5da7db1393d02a1 5b3e26e8c4ed31414c5d0b919ac1a70efe2a50a0 M	jenkins/Jenkinsfile-deploy
+commit 8893bbc79d96d5aaae85a7e353b00507199be79e
+tree 2c613ff2f5a90f77926e6b518105ba88f84e44b2
+parent 289206b2e42fbd03d93567f282b37346c541fd4b
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 09:15:36 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 09:15:36 -0700
+
+    remove hard coded SPIDER_NAME variable
+
+
+:100755 100755 0450a3bdb0911bf9322ce763bcc0da781d30f3b7 6f965af83c2abca273550b4f21cf27f06dcd7651 M	.DS_Store
+:100644 100644 966b7f60e75711058f22bff7292a279baca28bcb f4e6b791ba9f09c95538fdfdf5da7db1393d02a1 M	jenkins/Jenkinsfile-deploy
+commit 289206b2e42fbd03d93567f282b37346c541fd4b
+tree c92e764e90def59bb342ed6a81f677bd051c4737
+parent 823ff46dd84cc98bbd286afa1e112788622e4f2c
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:54:46 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:54:46 -0700
+
+    parameterize SPIDER_REPLICAS for resume-job
+
+
+:100644 100644 f789b6ce13f68f9dc1b748500dedb16a06bfdd23 6940b6289866c8db386579f95d008ca91c0a4f8d M	jenkins/Jenkinsfile-resume-job
+commit 823ff46dd84cc98bbd286afa1e112788622e4f2c
+tree 042bd8fa893fd9d3b99a9d8be646d748588baba8
+parent cfc37a1ede77a990604f4f8ac362c934a8da703a
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:34:33 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:34:33 -0700
+
+    remove original Jenkinsfile
+
+
+:100644 000000 8689813a98230c12e55d241cd5c97d4f7d55c9f3 0000000000000000000000000000000000000000 D	Jenkinsfile
+commit cfc37a1ede77a990604f4f8ac362c934a8da703a
+tree 7ca2401c2f4ddadb65913c12b5be836deabba4f0
+parent 5cdc2c15dcfe08ea36da5f9935d6247ac6d05760
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:04:24 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:04:24 -0700
+
+    removed commented code
+
+
+:100755 100755 518bc72bf7b5953828f92895d54a54d816d5ada4 f04584de2b21034061cf6391408bed923e0397de M	k8s/helm/templates/scrapy/scrapy-job.yaml
+commit 5cdc2c15dcfe08ea36da5f9935d6247ac6d05760
+tree 98f21ff388f71b1992498ef75d965221d2c60451
+parent c476201c05b926c59eb86158f73bebd8929a1b9f
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:34:35 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:34:35 -0700
+
+    add timeout to wait-for-job-completion
+
+
+:100644 100644 cbb8ba319ca1be1ae0d3c77dedaac2b0bbe7f701 58fef50af0b2ab3c61fcbeb4595140342a411ab5 M	jenkins/Jenkinsfile-wait-for-job-completion
+commit c476201c05b926c59eb86158f73bebd8929a1b9f
+tree 256b77b43805970820d1305208958bdd642d9857
+parent 2c707a87e1238f42b8add71469eed8e6be765354
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:28:01 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:28:01 -0700
+
+    remove timeout from jobs wai-for-completion
+
+
+:100644 100644 6e95ffa1645b5830f8687df435f189898d6df8d3 cbb8ba319ca1be1ae0d3c77dedaac2b0bbe7f701 M	jenkins/Jenkinsfile-wait-for-job-completion
+commit 2c707a87e1238f42b8add71469eed8e6be765354
+tree 0bf7277cb2b1db4d4c8f1f27136f8190e818ee0c
+parent 4cd7fc32f207a0d77e18bbd6071ab7989cc3f9ae
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 04:27:43 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 04:27:43 -0700
+
+    move instance path to scrapy-pipeline/
+
+
+:100644 100644 d86bd79a16c238cbeb7e3c73bbc3d8f57e1a3967 407c5c821a4bc86f59024b7f31c40b116f44d0dc M	jenkins/Jenkinsfile-pause-job
+:100644 100644 447e6f8f01f4a7e753c8630cc53d68b572dfae0f f789b6ce13f68f9dc1b748500dedb16a06bfdd23 M	jenkins/Jenkinsfile-resume-job
+:100644 100644 44837408bfb01447cc719bcd74b34cf1643ad8c2 a618f954c1e02d7c293264363c2be49fb0844ae5 M	jenkins/Jenkinsfile-update-job
+:100644 000000 8689813a98230c12e55d241cd5c97d4f7d55c9f3 0000000000000000000000000000000000000000 D	jenkins/old.Jenkinsfile-main
+commit 4cd7fc32f207a0d77e18bbd6071ab7989cc3f9ae
+tree e728a62468160a38d6e5f1f3a8320bf38a4131d0
+parent fc8d0024eec2af7124998c5c29e65965ca3a8eb5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:59:24 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:59:24 -0700
+
+    remove env.SPIDER_VERSION from env stage
+
+
+:100644 100644 e305948405619fb802030a14dda0c584ebdf56b5 1dd0709e85e50a28680fc924ef5caea0308d91a8 M	jenkins/Jenkinsfile-main
+commit fc8d0024eec2af7124998c5c29e65965ca3a8eb5
+tree ca17b029887028eba1cd147e84ab127cdeef4ad0
+parent e01fa04ef20e033b071af92751c7948ed65d97be
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:56:14 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:56:14 -0700
+
+    add line as fail safe to ensure kubectl connected
+
+
+:100644 100644 afef81abb18bdf66e94bd3fae9971ef36645fa77 447e6f8f01f4a7e753c8630cc53d68b572dfae0f M	jenkins/Jenkinsfile-resume-job
+commit e01fa04ef20e033b071af92751c7948ed65d97be
+tree 66ffa0c661db9b8fe51f3f40f3a81e11700a6ae3
+parent 14b2ea1d7285edce1bde0358a0a92e26feab4521
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:55:04 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:55:04 -0700
+
+    remove duplicate stage
+
+
+:100644 100644 a7d2ec9c8be31f61e092f0df3c7de9958d3f6b5b afef81abb18bdf66e94bd3fae9971ef36645fa77 M	jenkins/Jenkinsfile-resume-job
+commit 14b2ea1d7285edce1bde0358a0a92e26feab4521
+tree 760c91e7a6c92ca670419f07a04c1cd1f4bb4ce1
+parent 66e994be787eaee5931f568d9fef0e8c69d420b0
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:52:24 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:52:24 -0700
+
+    add Jenkinsfile-resume-job
+
+
+:000000 100644 0000000000000000000000000000000000000000 a7d2ec9c8be31f61e092f0df3c7de9958d3f6b5b A	jenkins/Jenkinsfile-resume-job
+commit 66e994be787eaee5931f568d9fef0e8c69d420b0
+tree 593b6085e133fa8427b8a24e7603b61b4746edd1
+parent 383b89a6f9bbbf2f9386fe9097c1e62810abb51d
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:37:20 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:37:20 -0700
+
+    add line as fail safe to ensure kubectl connected
+
+
+:100644 100644 e712d11b002fcf3c3279a3e5667087a07c4b4403 d86bd79a16c238cbeb7e3c73bbc3d8f57e1a3967 M	jenkins/Jenkinsfile-pause-job
+commit 383b89a6f9bbbf2f9386fe9097c1e62810abb51d
+tree 64d8e210fa5c961fb9b32cfd13226353eb62ea1d
+parent 42b9d16510dd852d902063d6ce355ed3c4a05a2d
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:33:25 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 03:33:25 -0700
+
+    add Jenkinsfile-pause-job
+
+
+:000000 100644 0000000000000000000000000000000000000000 e712d11b002fcf3c3279a3e5667087a07c4b4403 A	jenkins/Jenkinsfile-pause-job
+commit 42b9d16510dd852d902063d6ce355ed3c4a05a2d
+tree 682850c6b3a3b60ea569f5c89c69833f9f592bb8
+parent 6b9b2b448a8d95f55e994285658faa69453ac346
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 02:43:30 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 02:43:30 -0700
+
+    add echo to update job
+
+
+:100644 100644 97f6e0381460cfc81d4493f3d0ba276d023ddb4f 44837408bfb01447cc719bcd74b34cf1643ad8c2 M	jenkins/Jenkinsfile-update-job
+commit 6b9b2b448a8d95f55e994285658faa69453ac346
+tree b6d70d647c8352b99be845fba994b8b43c44e9f1
+parent 1eba78ce8c5db6df2396e948f9c682aea64a238c
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 02:34:21 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 02:34:21 -0700
+
+    correct errorlogs file
+
+
+:100644 100644 974b42d6571c68af8605b1d0d9e447320d3555a7 fa96b6e313f5cec78d83f977fc5c929d50c62f5c M	jenkins/Jenkinsfile-errorlogs
+commit 1eba78ce8c5db6df2396e948f9c682aea64a238c
+tree acda085ab1fa244f5c993d237fa1b69c95cff827
+parent d0f404cefb73950629836ac8838c40caf8cc26af
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 02:19:16 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 02:19:16 -0700
+
+    add echo to whether job is running or not
+
+
+:100644 100644 fa96b6e313f5cec78d83f977fc5c929d50c62f5c 974b42d6571c68af8605b1d0d9e447320d3555a7 M	jenkins/Jenkinsfile-errorlogs
+commit d0f404cefb73950629836ac8838c40caf8cc26af
+tree b6d70d647c8352b99be845fba994b8b43c44e9f1
+parent 409e962b02e2eaaf95a4dad3909eedd1ec5591bf
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 01:48:57 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 01:48:57 -0700
+
+    remove unnecessary variables
+
+
+:100644 100644 4d7c458867afe376ccdc1785f14c4c66993aa757 fa96b6e313f5cec78d83f977fc5c929d50c62f5c M	jenkins/Jenkinsfile-errorlogs
+commit 409e962b02e2eaaf95a4dad3909eedd1ec5591bf
+tree e35f75e94ce9119761fcac1cb7759b9fbd9e150b
+parent 60abd14405e67c814b256534fa5f7257ca16cda5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 01:42:58 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 01:42:58 -0700
+
+    remove unnecessary variables from Jenkinsfile-errorlogs
+
+
+:100644 100644 3bceaa50da30305f51f24f7663fbbace9bf6e444 4d7c458867afe376ccdc1785f14c4c66993aa757 M	jenkins/Jenkinsfile-errorlogs
+commit 60abd14405e67c814b256534fa5f7257ca16cda5
+tree 022691d4b89c71f6996c38bdb71771f6da3d557f
+parent 93ec272d4831e676cb16ea5d6aa074a81b306014
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:46:11 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:46:11 -0700
+
+    no longer overwrites all env variables from instance
+
+
+:100644 100644 47135da373b84b86771855321e98879e5251f72f 97f6e0381460cfc81d4493f3d0ba276d023ddb4f M	jenkins/Jenkinsfile-update-job
+commit 93ec272d4831e676cb16ea5d6aa074a81b306014
+tree e32b8bd75052c4d990fff24a6a871a963bbd5b23
+parent 9d02ef0a7ffcb860f9e57f7436dda18212982e3e
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:42:22 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:42:22 -0700
+
+    change from INSTANCE_ID to JOB_ID
+
+
+:100644 100644 c8cc48ebf2818c7573c743056981d9e115675e75 47135da373b84b86771855321e98879e5251f72f M	jenkins/Jenkinsfile-update-job
+commit 9d02ef0a7ffcb860f9e57f7436dda18212982e3e
+tree 804f676e4863139c87b5a74c4223953653c0cc64
+parent c0156df83997172e7cae484c40286328e80d8a13
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:32:58 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:32:58 -0700
+
+    remove hard coded value for instance id
+
+
+:100644 100644 2fec9dfcbc002bd17a138a7f60305eb3cfd70136 c8cc48ebf2818c7573c743056981d9e115675e75 M	jenkins/Jenkinsfile-update-job
+commit c0156df83997172e7cae484c40286328e80d8a13
+tree a7ab3c7fa0aad29206accb00b41203db218ff8e3
+parent 23396a8d8d80390dde9fb5376f1c7e08b2ef200b
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:26:44 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:26:44 -0700
+
+    fix syntax error
+
+
+:100644 100644 377b5ad45c9c3d3d6e08ab6de4cf4c2459d47317 e305948405619fb802030a14dda0c584ebdf56b5 M	jenkins/Jenkinsfile-main
+commit 23396a8d8d80390dde9fb5376f1c7e08b2ef200b
+tree 57602a526f15810e7efb3444acabd7cc477c9ed1
+parent f11398b2e8cf0c70a7c8fd6e26c9d0fce56cac53
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:14:25 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:14:25 -0700
+
+    fix syntax error
+
+
+:100644 100644 4bc58f58ab898a282a567807063966ef6a041354 377b5ad45c9c3d3d6e08ab6de4cf4c2459d47317 M	jenkins/Jenkinsfile-main
+commit f11398b2e8cf0c70a7c8fd6e26c9d0fce56cac53
+tree d250dfef7874e1423a671019aeaadb54c7f84aa9
+parent fc94ae3232d1dbe0a2dcd267ad256476e164c18b
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:13:54 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:13:54 -0700
+
+    fix syntax error
+
+
+:100644 100644 74f0f956a590cac132a3ca973d90e1a63d09f319 4bc58f58ab898a282a567807063966ef6a041354 M	jenkins/Jenkinsfile-main
+commit fc94ae3232d1dbe0a2dcd267ad256476e164c18b
+tree dfbab689357801436d768d5ee4afc2da2cd542e3
+parent 18e4218921dc6af5244b723c3239c24fac544a51
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:05:50 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:05:50 -0700
+
+    further cleanup of unnecessary variables
+
+
+:100644 100644 6ca10b17dfe5b2f3a566718ac3c87743762f80a8 74f0f956a590cac132a3ca973d90e1a63d09f319 M	jenkins/Jenkinsfile-main
+commit 18e4218921dc6af5244b723c3239c24fac544a51
+tree 7d7bb2264277e00e8f0d00bd410c0b7771a3b736
+parent c5ed3b38dc03a07ee285792833d43d67f1c88037
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:04:00 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 20:04:00 -0700
+
+    further cleanup of unnecessary variables
+
+
+:100644 100644 9c3e5626fc426778af3e7d9c18048b01cb9d91cd 966b7f60e75711058f22bff7292a279baca28bcb M	jenkins/Jenkinsfile-deploy
+:100644 100644 b17eb94ef67c6307acc5d825c2389519ac7eeaa8 6ca10b17dfe5b2f3a566718ac3c87743762f80a8 M	jenkins/Jenkinsfile-main
+commit c5ed3b38dc03a07ee285792833d43d67f1c88037
+tree 062b743fc76e48c620724accb4f7c1e843c73922
+parent 709250d40cb8a0a3ef9c893c737ed7763a9ed956
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:56:49 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:56:49 -0700
+
+    further cleanup of unnecessary variables
+
+
+:100644 100644 b775b417253e11c94390595fb87995298d80a5af 3c3cc21d083eee5ccdc7930f4735fd7bee276138 M	jenkins/Jenkinsfile-build-image
+:100644 100644 4c70753e4e1a37d74bd65a5059209b75a6817b38 9c3e5626fc426778af3e7d9c18048b01cb9d91cd M	jenkins/Jenkinsfile-deploy
+:100644 100644 7666aad27d9cf429ffdb392b78c8cc36e074f56a b17eb94ef67c6307acc5d825c2389519ac7eeaa8 M	jenkins/Jenkinsfile-main
+:100644 100644 0b90fa1956da56d6e82dce4433156d25c24363b2 2fec9dfcbc002bd17a138a7f60305eb3cfd70136 M	jenkins/Jenkinsfile-update-job
+:100644 100644 f7f3ec5500bb894902dcb899a88433c587876e7f 6e95ffa1645b5830f8687df435f189898d6df8d3 M	jenkins/Jenkinsfile-wait-for-job-completion
+commit 709250d40cb8a0a3ef9c893c737ed7763a9ed956
+tree a5678334cc7098effef92126fc3b1e48236a6fba
+parent f224aee9e89653b1b2f9ae6ebcd8b8fc5e39e48e
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:50:33 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:50:33 -0700
+
+    edit update-jobs file
+
+
+:100644 100644 2d7c309d7b140e8642d0d65724e95b6de1416eff 0b90fa1956da56d6e82dce4433156d25c24363b2 M	jenkins/Jenkinsfile-update-job
+commit f224aee9e89653b1b2f9ae6ebcd8b8fc5e39e48e
+tree f178c434cb88665b6c9e3b5b72ad18667afd11f5
+parent d6415768ed214232de93945a9bd6314a622fbed8
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:46:13 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:46:13 -0700
+
+    add pull repo stage to update-job file
+
+
+:100644 100644 36eeaeefa5538616034dd17c3cd09a743fdd24e7 2d7c309d7b140e8642d0d65724e95b6de1416eff M	jenkins/Jenkinsfile-update-job
+commit d6415768ed214232de93945a9bd6314a622fbed8
+tree eba1853750e1aaa6a8465439d6d11c1d0212e842
+parent 85a1ce9c2e846a8814e1efcf9ae51e3a2ffe8df0
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:15:57 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:15:57 -0700
+
+    add pull repo stage to update-job file
+
+
+:100644 100644 91c295ef8cea42d5ed6cb9b25080cb2e63bfc61e 36eeaeefa5538616034dd17c3cd09a743fdd24e7 M	jenkins/Jenkinsfile-update-job
+commit 85a1ce9c2e846a8814e1efcf9ae51e3a2ffe8df0
+tree 91b1ee5c7183d9846c871d725c9b8c2b48d2fc22
+parent 57e21487f7ec1cd7d272848f7a405cf1f714507d
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:01:51 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 19:01:51 -0700
+
+    parameterize call to build image stage
+
+
+:100644 100644 2e0b2be2284c6cfd97106be1af16648d0bbdf472 7666aad27d9cf429ffdb392b78c8cc36e074f56a M	jenkins/Jenkinsfile-main
+commit 57e21487f7ec1cd7d272848f7a405cf1f714507d
+tree 279af0469252bacef7c84d9196458d296d5ca7a7
+parent 55882777dc7d26cf1cc953a88bda5632dc914db6
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 18:58:31 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 18:58:31 -0700
+
+    comment out hard coded values
+
+
+:100644 100644 f2205eea1f077e891487ae816c8798217acdf29b b775b417253e11c94390595fb87995298d80a5af M	jenkins/Jenkinsfile-build-image
+commit 55882777dc7d26cf1cc953a88bda5632dc914db6
+tree f3d85c820eedc2ba119eec29407c3937a618371f
+parent 9195798754365b6589ff2ccf7287d2d7e12885c0
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 18:44:01 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 18:44:01 -0700
+
+    commented out spider_name and git_url as they are now parameterized
+
+
+:100644 100644 49cbc5daf2ab0618d878615a15dd7889c4d6b8e0 2e0b2be2284c6cfd97106be1af16648d0bbdf472 M	jenkins/Jenkinsfile-main
+commit 9195798754365b6589ff2ccf7287d2d7e12885c0
+tree 8679be38d1c9b7dbbac321ba85ee28890494eddb
+parent e2dab73f37c3e0330ec7016fe0e330375295bf17
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 08:09:57 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 08:09:57 -0700
+
+    Jenkinsfile-update-job add stage get instance
+
+
+:100644 100644 ae72fb37bb2650d3ef19c90f27d584f708aa906e 91c295ef8cea42d5ed6cb9b25080cb2e63bfc61e M	jenkins/Jenkinsfile-update-job
+commit e2dab73f37c3e0330ec7016fe0e330375295bf17
+tree c4fd2e2d10264dcaa6ee726016d6e04a67b97a84
+parent 0017254e1e651e147ba9b17baf7420d2dc1e12a5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 07:13:00 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 07:13:00 -0700
+
+    remove junk file
+
+
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	0
+commit 0017254e1e651e147ba9b17baf7420d2dc1e12a5
+tree 9294bea9fcddae493925ca824fadcfa344670e51
+parent 9a17722710e62518d240d1d5ec6f92bbb777effe
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 05:47:28 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 05:47:28 -0700
+
+    fix typo completion
+
+
+:100644 100644 ca734adfc72e8364cfbb9a5dc22588538cd1fee6 49cbc5daf2ab0618d878615a15dd7889c4d6b8e0 M	jenkins/Jenkinsfile-main
+:100644 100644 39a63ce78d98ac5e58229169363fe43ae14bc3eb f7f3ec5500bb894902dcb899a88433c587876e7f M	jenkins/Jenkinsfile-wait-for-job-completion
+commit 9a17722710e62518d240d1d5ec6f92bbb777effe
+tree a8a0a0f7de32f1a7c01fbff13e4593a6199bb862
+parent 94a477709dbd0c8cdb06587c3f46d8b56d4c0ea2
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 03:16:55 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 03:16:55 -0700
+
+    move notification stage into correct block
+
+
+:100644 100644 a7f6e33e8e5bb14184b67d8741325b7e4f7aa526 ca734adfc72e8364cfbb9a5dc22588538cd1fee6 M	jenkins/Jenkinsfile-main
+commit 94a477709dbd0c8cdb06587c3f46d8b56d4c0ea2
+tree 993ebc3f157d6dd8be7b073dea136301f0017eff
+parent 1d005002e83d0ac2a0dcc22635ca4f5b6174fdb2
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 03:06:18 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 03:06:18 -0700
+
+    update Jenkinsfile-update-job
+
+
+:100644 100644 770481224f080a5514a35ff15e7b402bc31b5d5a a7f6e33e8e5bb14184b67d8741325b7e4f7aa526 M	jenkins/Jenkinsfile-main
+:100644 100644 eddb2c498725aa57034624a5e48be3cb929398a5 ae72fb37bb2650d3ef19c90f27d584f708aa906e M	jenkins/Jenkinsfile-update-job
+commit 1d005002e83d0ac2a0dcc22635ca4f5b6174fdb2
+tree 255c566da7bb4b89b2a64a6daa5bf5c06a0e38fb
+parent 148b3002cabbc3b17dce6140ab2e765d4b93280a
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:33:54 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:33:54 -0700
+
+    add environment step
+
+
+:100644 100644 fc45a5c377b63fdb287c32c1a5bf7d7f6e825712 39a63ce78d98ac5e58229169363fe43ae14bc3eb M	jenkins/Jenkinsfile-wait-for-job-completion
+commit 148b3002cabbc3b17dce6140ab2e765d4b93280a
+tree cc6d9c4bb61bc714d1170f48ce475be6df0d3fb8
+parent 63ab2eff5b347554a0fd9a42ecd111bd7f09d237
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:32:25 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:32:25 -0700
+
+    fix Jenskinsfile-wait-for-job-competion
+
+
+:100644 100644 b5feae9058ccad6f7939dadead7baef2c9d083b3 fc45a5c377b63fdb287c32c1a5bf7d7f6e825712 M	jenkins/Jenkinsfile-wait-for-job-completion
+commit 63ab2eff5b347554a0fd9a42ecd111bd7f09d237
+tree 035f8c497884a9045cb5f0c218344529df36cda3
+parent 080d5b6810f51c749da5c1c744f6a34f18f35824
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:30:15 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:30:15 -0700
+
+    add scrapy-pipeline-wait-for-job-competion to Jenkinsfile-main
+
+
+:100644 100644 20be516ad15fbdb363a9b61776d9b69f18ac2203 770481224f080a5514a35ff15e7b402bc31b5d5a M	jenkins/Jenkinsfile-main
+commit 080d5b6810f51c749da5c1c744f6a34f18f35824
+tree 80f8dbd3658575ef113d7c1957a1521a4132ab06
+parent fc4cd3b5601b3c3670fccf3f6769bada3804f970
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:26:12 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:26:12 -0700
+
+    refactor job completion into its own script
+
+
+:100644 100644 01313bf3abc61219ea7e6dc6e9783947ee5db710 4c70753e4e1a37d74bd65a5059209b75a6817b38 M	jenkins/Jenkinsfile-deploy
+:000000 100644 0000000000000000000000000000000000000000 b5feae9058ccad6f7939dadead7baef2c9d083b3 A	jenkins/Jenkinsfile-wait-for-job-completion
+commit fc4cd3b5601b3c3670fccf3f6769bada3804f970
+tree 795c9b6c30448abff92891e493297ed68cb626f4
+parent eb9aa50af2121934f888d048771567d08845f11d
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:14:44 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:14:44 -0700
+
+    remove comments from Jenksinfile-deploy
+
+
+:100644 100644 6fc1949ad8aed708827fb2a4ead53b215977aca4 01313bf3abc61219ea7e6dc6e9783947ee5db710 M	jenkins/Jenkinsfile-deploy
+commit eb9aa50af2121934f888d048771567d08845f11d
+tree 65a339fb3b08d0d652324948adfea54a6bdf2c4a
+parent f3a99de704242a6cf40960803c721c57274aef89
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:12:27 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:12:27 -0700
+
+    Add echo to Jenkinsfile-deploy
+
+
+:100644 100644 7700634a7318955b42df8faf73471167b90d6f83 6fc1949ad8aed708827fb2a4ead53b215977aca4 M	jenkins/Jenkinsfile-deploy
+commit f3a99de704242a6cf40960803c721c57274aef89
+tree bab1fc4efe7f968b014f6ca3487cce610f2a3fab
+parent 75a96500ce9b42855e6431ce28a1479cea349aab
+author alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:09:29 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-05 02:09:29 -0700
+
+    update Jenkins-deploy to try 20 attempts
+
+
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	0
+:100644 100644 3e033b88c54bfd3de7c50c0e3fc51e5bac2d7855 7700634a7318955b42df8faf73471167b90d6f83 M	jenkins/Jenkinsfile-deploy
+commit 75a96500ce9b42855e6431ce28a1479cea349aab
+tree 3a3c36411fc1ad0b23f1807f9127503699495968
+parent 4c909f619986fb77635f0e714e9ae8a69f0d070c
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 22:16:03 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 22:16:03 -0700
+
+    remove hardcoded spider_replica values
+
+
+:100644 100644 d559947cb573fa740422e3e0d0721a4b0fad4e64 3e033b88c54bfd3de7c50c0e3fc51e5bac2d7855 M	jenkins/Jenkinsfile-deploy
+commit 4c909f619986fb77635f0e714e9ae8a69f0d070c
+tree 500bd0c8f0696f8c640e827bcd6168a00739ed17
+parent 706f29fac930214c68bff4acf911f0be3fc6d2c5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 21:53:49 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 21:53:49 -0700
+
+    update Jenkinsfile-deploy to initiate infinite loop until jobs running
+
+
+:100644 100644 37d1d4decf1ec0d3b78009d8ee90ae9cb9c12e07 d559947cb573fa740422e3e0d0721a4b0fad4e64 M	jenkins/Jenkinsfile-deploy
+commit 706f29fac930214c68bff4acf911f0be3fc6d2c5
+tree 4221250ebb789e282d688c57bb5566f2bd3433a3
+parent 6e91d8a573414b862552216f766b96322513eee5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 21:21:33 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 21:21:33 -0700
+
+    add parameters to Jenkinsfile-main
+
+
+:100644 100644 42a3a47f172ac2e40e092eef32999c733c40485d 20be516ad15fbdb363a9b61776d9b69f18ac2203 M	jenkins/Jenkinsfile-main
+commit 6e91d8a573414b862552216f766b96322513eee5
+tree b6b88c9991c96e2143356566285f2bca0c72f28c
+parent cee75c383310fb3284e5af20cb9c8eed521d22f0
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:54:40 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:54:40 -0700
+
+    update Jenfile-deploy
+
+
+:100644 100644 0532cb7ad04dfa55debbf7cbd17d970d3cb98120 37d1d4decf1ec0d3b78009d8ee90ae9cb9c12e07 M	jenkins/Jenkinsfile-deploy
+commit cee75c383310fb3284e5af20cb9c8eed521d22f0
+tree 548cad7071122f1e69064b8bd7eb598a43a4631c
+parent af966b6b7f33d511bafb27ec99cccb6bac579ce2
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:37:49 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:37:49 -0700
+
+    update build jobs step
+
+
+:100644 100644 9e0bdca5eb085e531d44c741aa513a43dbf4a42f 42a3a47f172ac2e40e092eef32999c733c40485d M	jenkins/Jenkinsfile-main
+commit af966b6b7f33d511bafb27ec99cccb6bac579ce2
+tree 6f790ab3c1569f804f1897f42d1c73ac1662e6d5
+parent b079898a997e8601202099410671880268c8db88
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:31:28 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:31:28 -0700
+
+    update Jenkinsfile-main
+
+
+:100644 100644 0a284c2460cb04dabaf0217733b0e627a7d552a2 9e0bdca5eb085e531d44c741aa513a43dbf4a42f M	jenkins/Jenkinsfile-main
+commit b079898a997e8601202099410671880268c8db88
+tree 2657269ec987f3d623913db173b7d23958394390
+parent 6211ffff84f7458b8b0f92c32fabd14560b54943
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:26:40 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:26:40 -0700
+
+    update Jenkinsfile-main
+
+
+:100644 100644 b51d03eb892665c7c56a5c54d8e59379a27b54bc 0532cb7ad04dfa55debbf7cbd17d970d3cb98120 M	jenkins/Jenkinsfile-deploy
+:100644 100644 8689813a98230c12e55d241cd5c97d4f7d55c9f3 0a284c2460cb04dabaf0217733b0e627a7d552a2 M	jenkins/Jenkinsfile-main
+:000000 100644 0000000000000000000000000000000000000000 8689813a98230c12e55d241cd5c97d4f7d55c9f3 A	jenkins/old.Jenkinsfile-main
+commit 6211ffff84f7458b8b0f92c32fabd14560b54943
+tree 5cd733371141584259f32db561172d8d4be8ddea
+parent 68de16bfad6c1abd28e1f76d21f1824739829aec
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:14:53 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 20:14:53 -0700
+
+    update Jenkins-update-job
+
+
+:100644 100644 8b4f6ba1252d1124cf07fa63054790e22a0eced5 eddb2c498725aa57034624a5e48be3cb929398a5 M	jenkins/Jenkinsfile-update-job
+commit 68de16bfad6c1abd28e1f76d21f1824739829aec
+tree 04564ead63cfa8953cda0096ea8a9f207c07cf39
+parent f118422c001c4a4b02b0e7304368d88a4d2be4f6
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 19:55:30 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 19:55:30 -0700
+
+    create Jenkinsfile-update-job
+
+
+:100644 100644 c584ddf9acde22eaba4b5b273d56061604ee76e7 3bceaa50da30305f51f24f7663fbbace9bf6e444 M	jenkins/Jenkinsfile-errorlogs
+:000000 100644 0000000000000000000000000000000000000000 8b4f6ba1252d1124cf07fa63054790e22a0eced5 A	jenkins/Jenkinsfile-update-job
+commit f118422c001c4a4b02b0e7304368d88a4d2be4f6
+tree a5cb00f2b50d400c63ea2ad0926929e3ec14c9b3
+parent 9addc467702a3d75a4344eae3538f0906d12c30b
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 19:43:43 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 19:43:43 -0700
+
+    add Jenkins-errorlogs and rename Jenkinsfile-build to -build-image
+
+
+:000000 100644 0000000000000000000000000000000000000000 f2205eea1f077e891487ae816c8798217acdf29b A	jenkins/Jenkinsfile-build-image
+:100644 100644 b51d03eb892665c7c56a5c54d8e59379a27b54bc b51d03eb892665c7c56a5c54d8e59379a27b54bc R100	jenkins/Jenkinsfile-build	jenkins/Jenkinsfile-deploy
+:000000 100644 0000000000000000000000000000000000000000 c584ddf9acde22eaba4b5b273d56061604ee76e7 A	jenkins/Jenkinsfile-errorlogs
+commit 9addc467702a3d75a4344eae3538f0906d12c30b
+tree 1458925dfb2e0c2490edda611b2f1b9c8123c866
+parent c2304f195d334175af6c7b409bc095812d08d3b7
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 19:29:57 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 19:29:57 -0700
+
+    add Jenkinsfile-build
+
+
+:000000 100644 0000000000000000000000000000000000000000 b51d03eb892665c7c56a5c54d8e59379a27b54bc A	jenkins/Jenkinsfile-build
+commit c2304f195d334175af6c7b409bc095812d08d3b7
+tree bbef64f2a7f717dc84feef0759ca63582e389c5b
+parent 0f8c67a0a3fc8ba15d69833fdde52bdbd05c2e6e
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 19:26:16 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 19:26:16 -0700
+
+    add Jenkinsfile-main
+
+
+:000000 100644 0000000000000000000000000000000000000000 8689813a98230c12e55d241cd5c97d4f7d55c9f3 A	jenkins/Jenkinsfile-main
+commit 0f8c67a0a3fc8ba15d69833fdde52bdbd05c2e6e
+tree 54a3bad7edea3b7da6b761b61ed7e6667567aaca
+parent dc38cc7f7818e7839c7eb1ec708aad66c5e71892
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 17:47:42 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 17:47:42 -0700
+
+    add conditional statement to wait for jobs to finish
+
+
+:100644 100644 3b593ed027330f238ba7a8c59995c04ed0b6ef54 8689813a98230c12e55d241cd5c97d4f7d55c9f3 M	Jenkinsfile
+commit dc38cc7f7818e7839c7eb1ec708aad66c5e71892
+tree 5b8c10d620486bb50ccde2cb7ce453ebe9beb9ca
+parent 0c413fcd1259fd0c340e2ffc5756de2ff9be0d59
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 17:01:53 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 17:01:53 -0700
+
+    add spider retries to jenkins template
+
+
+:100644 100644 fed93842a9014649e11e17bb4f9fbd4a6204becf 3b593ed027330f238ba7a8c59995c04ed0b6ef54 M	Jenkinsfile
+commit 0c413fcd1259fd0c340e2ffc5756de2ff9be0d59
+tree 406507bb0ce627c752ae15170c63119c8289b5f3
+parent 929505af62f7f6a04b844ed8362875a09da6c2bf
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 17:00:20 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 17:00:20 -0700
+
+    add backoff limit to helm
+
+
+:100755 100755 5d165260624b82a17f870e38693b32e55d0d2bbb 518bc72bf7b5953828f92895d54a54d816d5ada4 M	k8s/helm/templates/scrapy/scrapy-job.yaml
+commit 929505af62f7f6a04b844ed8362875a09da6c2bf
+tree 49dc77e4de320d0337129e6a2b332553cb2a5377
+parent c4c94e09e46406fcf028dc2bd34a74e9802debe6
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 16:59:57 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 16:59:57 -0700
+
+    add backoff limit to helm
+
+
+:100755 100755 673d437bf21b0ac8a7db9abb8749ea5a1eaa0b05 5d165260624b82a17f870e38693b32e55d0d2bbb M	k8s/helm/templates/scrapy/scrapy-job.yaml
+:100755 100755 c89163be5e8725e221b373443ab4f76802bc18e0 89ae13a46eb1769c1e55713fa0edccd1a4e1cca0 M	k8s/helm/values.yaml
+commit c4c94e09e46406fcf028dc2bd34a74e9802debe6
+tree 7496d73f20442ea31f5c51c850f73238703addcd
+parent 6e12938bbf4b3e53a6484577341538e5a3e8f1bb
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 16:40:19 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 16:40:19 -0700
+
+    remove needless statements from main.py
+
+
+:100644 100644 ff5f5ed0e8226b86b0b0b0b7cfea8074acfb219e fed93842a9014649e11e17bb4f9fbd4a6204becf M	Jenkinsfile
+:100644 100644 77cf1e9fda140fdf38eef77d842942f31232ccf5 d2b42f82ca4ee82b93e5e7d0b366b7b52fdc1728 M	generic/main.py
+commit 6e12938bbf4b3e53a6484577341538e5a3e8f1bb
+tree 7f1827081fceaa26158a35ca4b125f6e2ae7e6e3
+parent 440d8552f7ec440fc1ddd61f7b4c0d2164b3dbc3
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 16:34:25 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 16:34:25 -0700
+
+    add wait condition on pipeline start
+
+
+:100644 100644 6d5e8eb67da875c8cc3f09d55ec86543ae94175b ff5f5ed0e8226b86b0b0b0b7cfea8074acfb219e M	Jenkinsfile
+commit 440d8552f7ec440fc1ddd61f7b4c0d2164b3dbc3
+tree 0d89764c33dd4934a91882b0285e155730daeea0
+parent a0243fc419bb73b93f63b7ac0bf12262e759a057
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 07:44:19 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 07:44:19 -0700
+
+    add number of replicas to helm build
+
+
+:100644 100644 0416654fbe93963db468247383c8853117d754e3 6d5e8eb67da875c8cc3f09d55ec86543ae94175b M	Jenkinsfile
+commit a0243fc419bb73b93f63b7ac0bf12262e759a057
+tree 2343fe71131eb8fc9a02e3d9009245a83c873fdc
+parent 6e2c7800271b6d7a7f3696b9ca1b65da0ed9a366
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 06:26:53 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 06:26:53 -0700
+
+    add number of replicas to helm build
+
+
+:100644 100644 d4db73dd563f9c8421c9dff4024e411fe9e0f940 0416654fbe93963db468247383c8853117d754e3 M	Jenkinsfile
+commit 6e2c7800271b6d7a7f3696b9ca1b65da0ed9a366
+tree 6719f2a0f1ed1281bf3fa8ab06e6e20f7ea8e4e1
+parent fa89b577b26479c82f0efb88050015a57bdd0954
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 05:03:36 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 05:03:36 -0700
+
+    update entrypoint
+
+
+:100755 100755 4ed4da400a77832edcb777a6ac1c12602739f65a 649258e7869ca310c5f1b408224b6435a27b8de1 M	entrypoint.sh
+:100644 100644 a4b2c15c9315c5d9a4201fbc76477e3b497b4934 77cf1e9fda140fdf38eef77d842942f31232ccf5 M	generic/main.py
+commit fa89b577b26479c82f0efb88050015a57bdd0954
+tree 2efca9a0e022bd17cc3bbf85349b1c33792e732f
+parent 917494cb6118544f63a77f631cc1184481dac1e8
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 04:39:33 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 04:39:33 -0700
+
+    update main to remove hard-coded spider name
+
+
+:100644 100644 3259c8e7ad6d70d0cf77461aa25bee4916184142 d4db73dd563f9c8421c9dff4024e411fe9e0f940 M	Jenkinsfile
+:100755 100755 faa788db48690aeac202e31113391503f6353a06 4ed4da400a77832edcb777a6ac1c12602739f65a M	entrypoint.sh
+:100644 100644 4de1ffcf6626f64a9f7fbfdbf2d64c04c5a835eb a4b2c15c9315c5d9a4201fbc76477e3b497b4934 M	generic/main.py
+:100644 100644 378e298361bbd01c065f5e46cf4fc843a40e4b57 1bdb568c82cf827fc5841f6894d5eb983af80a64 M	k8s/helm/templates/redis-commander/deployment.yaml
+commit 917494cb6118544f63a77f631cc1184481dac1e8
+tree c3d6c0c6e44e6c8152101b7fd025350c9b9c6a19
+parent 5c24f2b873b9fcec1ceb072273b5acf1c58de836
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 04:00:31 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 04:00:31 -0700
+
+    fix SPIDER_NAME env in main.py
+
+
+:100644 100644 f67b40e6e0ff5a88e3744bcd09c869280df5c043 4de1ffcf6626f64a9f7fbfdbf2d64c04c5a835eb M	generic/main.py
+commit 5c24f2b873b9fcec1ceb072273b5acf1c58de836
+tree 98c38be99e16ca4c53426d0f5e26c28c3a3366c7
+parent d655e3293302d03d8f355a9a43efe6022788f147
+author alexneuman <alexshrugged92@gmail.com> 2024-09-04 03:59:39 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-04 03:59:39 -0700
+
+    add main.py file to server as entrypoint to program
+
+
+:100755 100755 fd80bf6ae5681baf3a6d3f3719fe2cafce3f483f 69ebb7a3c47a69fa2cb2c0e7d60d39f6f6f37f49 M	generic/generic/middlewares.py
+:100755 100755 905a2e347f62bc2f93693e2fc1a2aa6ec83125b5 93d005573e9e4e2d495f783220bc78c4af6ae6ed M	generic/generic/settings.py
+:100644 100644 35deff397d65d8a02175a352e2c025444276a745 f4a9346503ca14bfd36b711ff04dd67128f8fa5e M	generic/generic/settings_override_critical.py
+:100644 100644 ccc8970b1cd639a7c80fd26bba032d43e3e6485c 101de7e8b810bc94e97b4fcd4b94c43e05bb2b1f M	generic/generic/settings_override_defaults.py
+:100644 100644 fd8da9ba350368b55fb2490554c001d7c5134abf 951227a5c638a6c4a15625bf07bfc1654bf88402 M	generic/generic/spiders/hermes.py
+:000000 100644 0000000000000000000000000000000000000000 f67b40e6e0ff5a88e3744bcd09c869280df5c043 A	generic/main.py
+commit d655e3293302d03d8f355a9a43efe6022788f147
+tree cfc7fab6a4d1c24acc3af66c83d38124461649ee
+parent 3460e6598d27fb96caf4bc12f1581a3be4e921e5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 22:30:10 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 22:30:10 -0700
+
+    update jenkinsfile
+
+
+:100644 100644 1372a365927e425bbb18cd8562e27fca9d7e8e57 3259c8e7ad6d70d0cf77461aa25bee4916184142 M	Jenkinsfile
+commit 3460e6598d27fb96caf4bc12f1581a3be4e921e5
+tree 7f95a4bb3d202963a4ff21f63902c803882e1d62
+parent aef50057489ca962e0222109f00fc184db39f167
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 22:25:43 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 22:25:43 -0700
+
+    update jenkinsfile
+
+
+:100644 100644 8e4f1db3aed5a9c95225aafb0a6df0493d030212 1372a365927e425bbb18cd8562e27fca9d7e8e57 M	Jenkinsfile
+commit aef50057489ca962e0222109f00fc184db39f167
+tree 8230b59c04b104fe2fc86e633d4f46cfa90bb03e
+parent 578e392fbf0545148ea985575b0574f6f410a898
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 21:40:22 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 21:40:22 -0700
+
+    edit Jenkinsfile to delete previous helm release
+
+
+:100644 100644 20858379140ca993e68a8768421915c68787804e 8e4f1db3aed5a9c95225aafb0a6df0493d030212 M	Jenkinsfile
+commit 578e392fbf0545148ea985575b0574f6f410a898
+tree 3e5eaa867d893d5333e91ef05288572adb826ef0
+parent bbddb0614ca242ab466a1a2129ae6d292e81ed3a
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 21:07:19 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 21:07:19 -0700
+
+    remove istio manifests
+
+
+:100644 000000 d5eee5ac97541f596057d7793e5b935b92079638 0000000000000000000000000000000000000000 D	k8s/helm/templates/istio/01-namespace.yaml
+:100644 000000 98f68853b4ac5bb3682b0e408b25351ac41af33f 0000000000000000000000000000000000000000 D	k8s/helm/templates/istio/kiali.yaml
+:100644 000000 9bedfcdad6e73740266216c535b9ab48fd1373d3 0000000000000000000000000000000000000000 D	k8s/helm/templates/istio/prometheus.yaml
+commit bbddb0614ca242ab466a1a2129ae6d292e81ed3a
+tree 926589bd7ae2ecaad7c116db529414b4cbe08458
+parent 94bc5187af3359d7262c853d7909045137b06ea9
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 18:24:36 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 18:24:36 -0700
+
+    update Jenkinsfile
+
+
+:100644 100644 00b96e9f34ce2bf8f0c08c94a5f40086c8e4cab6 20858379140ca993e68a8768421915c68787804e M	Jenkinsfile
+commit 94bc5187af3359d7262c853d7909045137b06ea9
+tree ea0d58a11597bb0b01119a05e2f3974a1e8a46a0
+parent 0b0e245f845a4fe5b9907934bd00378ded4bdd35
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 18:24:07 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 18:24:07 -0700
+
+    update scrapy-job to acept name parameter
+
+
+:100755 100755 d47126683df7c3422440cb3113fe2dd52c4fee1e 673d437bf21b0ac8a7db9abb8749ea5a1eaa0b05 M	k8s/helm/templates/scrapy/scrapy-job.yaml
+commit 0b0e245f845a4fe5b9907934bd00378ded4bdd35
+tree 9037b9468373c011d2ba1b030af659456ca4ec21
+parent 2e294d7cb04f4a2e5bfc9af262100948565385bc
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 15:18:23 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 15:18:23 -0700
+
+    update jenkinsfile to install helm deployment
+
+
+:100644 100644 8f2d3c2197cb631a2f5fad194ce86fdbd428d446 00b96e9f34ce2bf8f0c08c94a5f40086c8e4cab6 M	Jenkinsfile
+commit 2e294d7cb04f4a2e5bfc9af262100948565385bc
+tree c9354fe9523182dbe1826c0a950be1b943ed2a0c
+parent 66caa17c35acc311a8c16a008c0e31f00d91995a
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 15:15:53 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 15:15:53 -0700
+
+    update kube manifest and move helm into k8s folder
+
+
+:100644 100644 ce37f4728059c3dc8c63ec6a25ef12d512f5dc08 8f2d3c2197cb631a2f5fad194ce86fdbd428d446 M	Jenkinsfile
+:100755 000000 d6259eec415fe30a8dcc5ca55eab829a844a3681 0000000000000000000000000000000000000000 D	helm/values.yaml
+:100644 100644 0e8a0eb36f4ca2c939201c0d54b5d82a1ea34778 0e8a0eb36f4ca2c939201c0d54b5d82a1ea34778 R100	helm/.helmignore	k8s/helm/.helmignore
+:100644 100644 da45b71376df1a764b7b5f02bfa98dede3d1aa3d da45b71376df1a764b7b5f02bfa98dede3d1aa3d R100	helm/Chart.yaml	k8s/helm/Chart.yaml
+:100644 100644 d5eee5ac97541f596057d7793e5b935b92079638 d5eee5ac97541f596057d7793e5b935b92079638 R100	helm/templates/istio/01-namespace.yaml	k8s/helm/templates/istio/01-namespace.yaml
+:100644 100644 98f68853b4ac5bb3682b0e408b25351ac41af33f 98f68853b4ac5bb3682b0e408b25351ac41af33f R100	helm/templates/istio/kiali.yaml	k8s/helm/templates/istio/kiali.yaml
+:100644 100644 9bedfcdad6e73740266216c535b9ab48fd1373d3 9bedfcdad6e73740266216c535b9ab48fd1373d3 R100	helm/templates/istio/prometheus.yaml	k8s/helm/templates/istio/prometheus.yaml
+:100644 100644 378e298361bbd01c065f5e46cf4fc843a40e4b57 378e298361bbd01c065f5e46cf4fc843a40e4b57 R100	helm/templates/redis-commander/deployment.yaml	k8s/helm/templates/redis-commander/deployment.yaml
+:100644 100644 9a77b636162261e856f81b0982cc2e5656feb39a 9a77b636162261e856f81b0982cc2e5656feb39a R100	helm/templates/redis-commander/service.yaml	k8s/helm/templates/redis-commander/service.yaml
+:100644 100644 90af2c29fb53084dc2b37bcca16fd4f8bbeaf3d3 90af2c29fb53084dc2b37bcca16fd4f8bbeaf3d3 R100	helm/templates/redis-insight/redisinsight.yaml	k8s/helm/templates/redis-insight/redisinsight.yaml
+:100644 100644 292a78194f205fcb7bdfdef613f517fd07390e4f 292a78194f205fcb7bdfdef613f517fd07390e4f R100	helm/templates/redis/deployment.yaml	k8s/helm/templates/redis/deployment.yaml
+:100644 100644 2c7ad6d2c26b23bebdfbfc6a3dfb8a5d91680037 2c7ad6d2c26b23bebdfbfc6a3dfb8a5d91680037 R100	helm/templates/redis/service.yaml	k8s/helm/templates/redis/service.yaml
+:100755 100755 d47126683df7c3422440cb3113fe2dd52c4fee1e d47126683df7c3422440cb3113fe2dd52c4fee1e R100	helm/templates/scrapy/scrapy-job.yaml	k8s/helm/templates/scrapy/scrapy-job.yaml
+:100644 100644 e0f9e658a2bbf30552ad99063601eab5b226a5bb e0f9e658a2bbf30552ad99063601eab5b226a5bb R100	helm/templates/storage/scrapy-cache-pv.yaml	k8s/helm/templates/storage/scrapy-cache-pv.yaml
+:100644 100644 51bbe549b1cd1d6ff968a966f2c01d38f18e44fb 51bbe549b1cd1d6ff968a966f2c01d38f18e44fb R100	helm/templates/storage/scrapy-cache-pvc.yaml	k8s/helm/templates/storage/scrapy-cache-pvc.yaml
+:000000 100755 0000000000000000000000000000000000000000 c89163be5e8725e221b373443ab4f76802bc18e0 A	k8s/helm/values.yaml
+:100644 100644 c093090e87b5016c5af5969b27616f4d20e304c6 54624704395617f3390cf84cc591f59dff0e9708 M	skaffold.yaml
+commit 66caa17c35acc311a8c16a008c0e31f00d91995a
+tree 90e4c8f629b9e74847f7917776f8fb04c5d6f785
+parent c364bd11700bb1d85839df64af8fc74b04d0588e
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 04:02:33 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 04:02:33 -0700
+
+    update repo to automatically check HEAD branch
+
+
+:100644 100644 ac8586b732265e2db9f80a472126abaf43840998 ce37f4728059c3dc8c63ec6a25ef12d512f5dc08 M	Jenkinsfile
+commit c364bd11700bb1d85839df64af8fc74b04d0588e
+tree 78467c4e15eb02857ea588dc88bc5dab822672c0
+parent 7ae7e6f82f1120660a0bc9f79e7977848f655e29
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 03:26:43 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 03:26:43 -0700
+
+    update Jenkinsfile
+
+
+:100644 100644 a4f671fec35236fb11f07b139a4bc1759d616d11 ac8586b732265e2db9f80a472126abaf43840998 M	Jenkinsfile
+commit 7ae7e6f82f1120660a0bc9f79e7977848f655e29
+tree eb18b28529155a2bc9d76671cfb37ab74ac41ae7
+parent 9940aedd637c9ecf86da05c32f482943ca215d68
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 03:16:30 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 03:16:30 -0700
+
+    update Jenkinsfile
+
+
+:100644 100644 e6b7560badfd76bd7eeceebb1b63421469bdcbfe a4f671fec35236fb11f07b139a4bc1759d616d11 M	Jenkinsfile
+commit 9940aedd637c9ecf86da05c32f482943ca215d68
+tree 7b951d806fd8f3d808fac6fa084cefd9307b7114
+parent 40f13c2c2539f94faf8241c968ac80e7d23e2223
+author alexneuman <alexshrugged92@gmail.com> 2024-09-03 03:07:21 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-03 03:07:21 -0700
+
+    update Jenkinsfile
+
+
+:100644 100644 df07dab9b56437d234d86a097b47c7e7ff319845 e6b7560badfd76bd7eeceebb1b63421469bdcbfe M	Jenkinsfile
+commit 40f13c2c2539f94faf8241c968ac80e7d23e2223
+tree a5ad4cf07e423502a57a4cd3f1224a65809e9a06
+parent e0bd5bc1548aecbf01d80f15caf07210b453c7bd
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 23:01:08 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 23:01:08 -0700
+
+    clean up middleware imports
+
+
+:100755 100755 053f1843a2fc0c9d5303fea4c6c32685b6cace85 fd80bf6ae5681baf3a6d3f3719fe2cafce3f483f M	generic/generic/middlewares.py
+commit e0bd5bc1548aecbf01d80f15caf07210b453c7bd
+tree f7bcffdba7a8f32aa4991b0fba91852024bdf798
+parent b47911ce104a390bf49459aae33122e5d2853b98
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:49:14 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:49:14 -0700
+
+    update settings import
+
+
+:100755 100755 9fc76dfcb29670331491d182da8ffc0f3ae71b2e 053f1843a2fc0c9d5303fea4c6c32685b6cace85 M	generic/generic/middlewares.py
+:100755 100755 482e7a884ea3de33533f8074ab40b6a950e3c433 905a2e347f62bc2f93693e2fc1a2aa6ec83125b5 M	generic/generic/settings.py
+commit b47911ce104a390bf49459aae33122e5d2853b98
+tree 6d41295bb7285fff18afb106e89869bfdf5c3a89
+parent 359ebe558a17bc7825010101e77ece62ab3397d7
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:30:17 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:30:17 -0700
+
+    fixed incorrect import
+
+
+:100755 100755 e226005dbc345ce10c3a8da2e068c2b3a1b51e58 cd36de0b5298d11a3c904c70149ce0c8eb3e0d26 M	generic/generic/handler.py
+:100755 100755 44edd06f32a2882b3f5217d2d97c7f276c1a5194 9fc76dfcb29670331491d182da8ffc0f3ae71b2e M	generic/generic/middlewares.py
+commit 359ebe558a17bc7825010101e77ece62ab3397d7
+tree 6654c81409eed585bd122d338872aac63b45f202
+parent bb901980d35afb8fdaf1e0a4c14b1eb6cf87659f
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:27:51 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:27:51 -0700
+
+    add Spider import to handler
+
+
+:100755 100755 a603d0abafcf84208fd319894164abe4b77c32fc e226005dbc345ce10c3a8da2e068c2b3a1b51e58 M	generic/generic/handler.py
+commit bb901980d35afb8fdaf1e0a4c14b1eb6cf87659f
+tree 277a5c30f0bd6ca7f676e21a5f97750b654a9fb2
+parent df734b77895a05715dd150d86e0179ff21e34139
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:25:50 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:25:50 -0700
+
+    removed useless utils
+
+
+:100755 000000 b4a66f0fb4cbe11dafb47bf731e17f6d81506e58 0000000000000000000000000000000000000000 D	generic/utils/_redis.py
+:100755 000000 083534671d152e2e8703fda5abb46469ddfdb722 0000000000000000000000000000000000000000 D	generic/utils/browser.py
+:100755 000000 458279c08d7cbeaa2240254f2042a6f2d8ec42db 0000000000000000000000000000000000000000 D	generic/utils/cookies.py
+:100755 000000 a20c88d5fcb985843e53c9c82165f901caa37151 0000000000000000000000000000000000000000 D	generic/utils/fuzzy_match.py
+:100755 000000 b5e2e148477be05049182d5fc33ef611ee548d3c 0000000000000000000000000000000000000000 D	generic/utils/request_re.py
+:100755 000000 445442f712d9349b89c165ff0601a788abe774c9 0000000000000000000000000000000000000000 D	generic/utils/starting_urls.py
+commit df734b77895a05715dd150d86e0179ff21e34139
+tree 93a9a1e3b5c4b02052b7f720a662ff3300c5f79e
+parent ebad3bd7ae8b70582caaf541ee5fe06e2817e6d7
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:24:09 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:24:09 -0700
+
+    remove print statements from pageplus
+
+
+:100755 100755 e503b2bf826ad53c5d7ad10b80607ae9d50be744 42eb345279833461dadbe54d6980984fcceb03a4 M	generic/page/PagePlus.py
+commit ebad3bd7ae8b70582caaf541ee5fe06e2817e6d7
+tree 9d5865b717c48d1d66cb888b2946701479c92158
+parent 63a491ab8533d0b5fcf7484fa909938a606b6fa2
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:20:23 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:20:23 -0700
+
+    removed useless comment
+
+
+:100755 100755 c4aa543748644337dfb62958843877e20e531d1d 44edd06f32a2882b3f5217d2d97c7f276c1a5194 M	generic/generic/middlewares.py
+commit 63a491ab8533d0b5fcf7484fa909938a606b6fa2
+tree 51dfec93d76058296f6d8b2129ae01b9e007b907
+parent 8fbcd1385e178287786f58ca52e4e1ea8cd84fd1
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:19:50 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:19:50 -0700
+
+    removed print statement
+
+
+:100755 100755 bac7e02c446e5a6d77d0b1e023b88fc9cc0f864b 755e8933f02a915a048b36aa2e0604e038c1b0ef M	generic/page/page_methods.py
+commit 8fbcd1385e178287786f58ca52e4e1ea8cd84fd1
+tree 75be0c4036dbe2a6541cb6ceeaff2b3251d65232
+parent 0efc89a9fb192d42bbfa479daa86bec277910c69
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:19:29 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:19:29 -0700
+
+    remove junk from request_block
+
+
+:100755 100755 4dc2598363c0c8e90ac1b2fe4cebcc4ba1f21482 06821ea926adaf5fc87f7d073b8fb778a7e8a2df M	generic/generic/request_block.py
+commit 0efc89a9fb192d42bbfa479daa86bec277910c69
+tree 08ef0b2fb6d5abbaf4ec87db7fea6262117a194d
+parent 5d884e0c334ef15874b35701849e40c0602a5e20
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:19:04 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:19:04 -0700
+
+    update playwright page handler
+
+
+:100755 100755 fcffb75aea650a1d0ab76f6a8fb27b9142ccdcce a603d0abafcf84208fd319894164abe4b77c32fc M	generic/generic/handler.py
+commit 5d884e0c334ef15874b35701849e40c0602a5e20
+tree e8330dc9a8766f3154fa226a8857059318e0b75f
+parent 5ad0c120f94b9f9d48d1e80780f7411b6abb8de6
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:17:58 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:17:58 -0700
+
+    removed junk from middleware
+
+
+:100755 100755 78cb8de3f0c68a4f54609b5770f7db841cb90b4a c4aa543748644337dfb62958843877e20e531d1d M	generic/generic/middlewares.py
+:100755 000000 6f595fed93c08df7e51f0a6174a86ddc6f6d60fa 0000000000000000000000000000000000000000 D	generic/generic/settingsOLD.py
+commit 5ad0c120f94b9f9d48d1e80780f7411b6abb8de6
+tree b2e666f43bcc8a62faec06858e8f51ef8502c383
+parent 0972524e7d0975759c71f4f7d25e6285bf20bb72
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:00:23 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 22:00:23 -0700
+
+    update settings_override.sh to reflect case insensitivity of variables
+
+
+:100755 100755 af6faab17df01b03850ddd49b322670c59e10e6b 9f96cf5813b42271f18613bcae75c8a882e150e9 M	settings_override.sh
+commit 0972524e7d0975759c71f4f7d25e6285bf20bb72
+tree 15600db64977354b0bd8ae7b5fd45cec646a3fbb
+parent b3056aa2840a62f2e0ae59028ee21ddd598aec34
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:52:11 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:52:11 -0700
+
+    edit settings file to not only override uppercase variables
+
+
+:100755 100755 1692f9499ce065692361049fb57eeb179fd58807 482e7a884ea3de33533f8074ab40b6a950e3c433 M	generic/generic/settings.py
+:100755 100755 68a32d18b4a1f43d8f54eca17501dac1b35d14a0 f3f51a95c4f1f81dbb4644bfcd9d65542df8bea0 M	generic/generic/spiders/apple_jobs.py
+commit b3056aa2840a62f2e0ae59028ee21ddd598aec34
+tree 15fe260e43eda244d9df8d76d68102fcb9003113
+parent 9e55fdfe93b3f251dc70f221ead337b449b1dbe5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:45:10 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:45:10 -0700
+
+    update logger in settings.py
+
+
+:100755 100755 6948bf99c72cab656955b56f47814cfb11829523 1692f9499ce065692361049fb57eeb179fd58807 M	generic/generic/settings.py
+commit 9e55fdfe93b3f251dc70f221ead337b449b1dbe5
+tree 658436dc0493118939889d823f288ab20b997103
+parent 47dfd7657f9a4da9c2cbb3efd729a32c0f722f63
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:41:18 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:41:18 -0700
+
+    add logger to default settings
+
+
+:100644 100644 c9b7dee183974dad4e008fa738557b1c9ce67c4a ccc8970b1cd639a7c80fd26bba032d43e3e6485c M	generic/generic/settings_override_defaults.py
+commit 47dfd7657f9a4da9c2cbb3efd729a32c0f722f63
+tree b07568765877ba9cefe10ec98e0059358937f0e2
+parent ab75b0468bc495601abd218c19c3e8ac4529fdd9
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:34:23 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:34:23 -0700
+
+    update Jenkinsfile
+
+
+:100644 100644 5dc508a3c3b7542f97e439ae2857a5338651db19 df07dab9b56437d234d86a097b47c7e7ff319845 M	Jenkinsfile
+:100755 100755 f6ec3dbd17b52a9836b4aae09f3049d52e152ec1 5a819f922702608a814590db290829c6922d440e M	requirements.txt
+:100755 100755 0a4379854b198b57ba18c3a4667c21ddd5e27254 af6faab17df01b03850ddd49b322670c59e10e6b M	settings_override.sh
+commit ab75b0468bc495601abd218c19c3e8ac4529fdd9
+tree 815ea8eaf17d05fe2ee4d5afe99e2d4c496026b0
+parent 5aea09c37491b552e5022fba7284eb55615b8bc2
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:09:19 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 21:09:19 -0700
+
+    update settings
+
+
+:100755 100755 8cf01be2a0b160fea865f3a5e090fc536281d87a 6948bf99c72cab656955b56f47814cfb11829523 M	generic/generic/settings.py
+:100644 100644 8bc336acfbe24393e1907700b7a2032b71b31c2a c9b7dee183974dad4e008fa738557b1c9ce67c4a M	generic/generic/settings_override_defaults.py
+commit 5aea09c37491b552e5022fba7284eb55615b8bc2
+tree 0a5f4805da48479f3f622e088e8ccbc0407c8530
+parent 581ffc386658b8221b6ad46e5b7dd2211ff0e53e
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:46:38 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:46:38 -0700
+
+    update entrypoint and Dockerfile
+
+
+:100755 100755 d8f2a4f301ec0071dc568110bd8f09144991d7cf 162a7dd3bef923dcdc38eac0cd84af580c3f8a38 M	Dockerfile
+:000000 100755 0000000000000000000000000000000000000000 faa788db48690aeac202e31113391503f6353a06 A	entrypoint.sh
+:100755 100755 af33ffbf4edcc4c7c04df6f70d0c050df7970157 2bff3b3fe60806133e114a38c6c7c2646aeda855 M	generic/.DS_Store
+:100755 100755 ab51331976f305b5c1af1859dadae9f78bb31a62 0a4379854b198b57ba18c3a4667c21ddd5e27254 M	settings_override.sh
+commit 581ffc386658b8221b6ad46e5b7dd2211ff0e53e
+tree a648286fca600fd577261ab07c974314584323cb
+parent 56b1bd18905552b985165fd2513cf15d3c32ca03
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:34:21 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:34:21 -0700
+
+    change Dockerfile entrypoint
+
+
+:100755 100755 ed7f9028a8a9d35c1432e3b728fb301676333901 8cf01be2a0b160fea865f3a5e090fc536281d87a M	generic/generic/settings.py
+commit 56b1bd18905552b985165fd2513cf15d3c32ca03
+tree 5a4d6e3527bb810722b0df30b035f0898c089e63
+parent cfdd28bd380b32946c8d4f2cee902510633baa86
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:27:06 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:27:06 -0700
+
+    edit settings
+
+
+:100755 100755 8cf01be2a0b160fea865f3a5e090fc536281d87a ed7f9028a8a9d35c1432e3b728fb301676333901 M	generic/generic/settings.py
+:100755 000000 277dce1b6d03991b6a8ad0ab9057f48869a5eb48 0000000000000000000000000000000000000000 D	generic/tests.py
+commit cfdd28bd380b32946c8d4f2cee902510633baa86
+tree c4e2f38022f94bdeda62a5f494e33a41507b48bd
+parent 5af12c3da2e6c6e2e65eb92254a7139dda5c3887
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:17:40 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:17:40 -0700
+
+    make robotstxt_obey=False critical
+
+
+:100644 100644 85b975f1d545ea47278e47b3be4b998d911dbe85 35deff397d65d8a02175a352e2c025444276a745 M	generic/generic/settings_override_critical.py
+commit 5af12c3da2e6c6e2e65eb92254a7139dda5c3887
+tree 8fd63ec30574c8a4902945e0e59185c2d7e4e454
+parent f0bdeb3de056ff09c5b51ada6c2866fbc1e44119
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:16:32 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 18:16:32 -0700
+
+    cleanup of settings.py and refactor into override files
+
+
+:100755 100755 8853bf74883acf3798a5467500154a3d8c024fd7 8cf01be2a0b160fea865f3a5e090fc536281d87a M	generic/generic/settings.py
+:000000 100755 0000000000000000000000000000000000000000 6f595fed93c08df7e51f0a6174a86ddc6f6d60fa A	generic/generic/settingsOLD.py
+:100644 100644 b71d8b73e2d3d03590039621a48ad7ff1306c99e 85b975f1d545ea47278e47b3be4b998d911dbe85 M	generic/generic/settings_override_critical.py
+:100644 100644 969872b205594ceeabb386cf79aac638e5096e03 8bc336acfbe24393e1907700b7a2032b71b31c2a M	generic/generic/settings_override_defaults.py
+commit f0bdeb3de056ff09c5b51ada6c2866fbc1e44119
+tree 6b48cbf2853f99ea93cd1b1597609da8fea7b01c
+parent 4151517a6edbbf33839d01ebb28ab2ab62e3f4d6
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 17:33:49 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 17:33:49 -0700
+
+    change settings_override into defaults and critical settings to override
+
+
+:100755 100755 1c0c56e9085c87961cd86f8210d6166a91498ba8 8853bf74883acf3798a5467500154a3d8c024fd7 M	generic/generic/settings.py
+:100644 000000 a324e65b6c3ab2902ba4c1db4dcb7b1e215cea17 0000000000000000000000000000000000000000 D	generic/generic/settings_override.py
+:000000 100644 0000000000000000000000000000000000000000 b71d8b73e2d3d03590039621a48ad7ff1306c99e A	generic/generic/settings_override_critical.py
+:000000 100644 0000000000000000000000000000000000000000 969872b205594ceeabb386cf79aac638e5096e03 A	generic/generic/settings_override_defaults.py
+commit 4151517a6edbbf33839d01ebb28ab2ab62e3f4d6
+tree 9451ad434b6ccbdc57f87ad0dc79fabd24b4501c
+parent 34c2fc0ded04445a954e08b40b1237161939964f
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 17:11:46 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 17:11:46 -0700
+
+    fix settings.py as to not hard-core override script
+
+
+:100755 100755 305f6414e5172ebf35bd2142c5c7831207ee60ed 1c0c56e9085c87961cd86f8210d6166a91498ba8 M	generic/generic/settings.py
+commit 34c2fc0ded04445a954e08b40b1237161939964f
+tree 7c5ce1cd7e074a7c90fa1b0b5dfd069a9f53c17b
+parent 130b918511f9c322528f256e982e9b5df76e588d
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 17:08:33 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 17:08:33 -0700
+
+    add settings_override
+
+
+:100755 100755 5df99d4c036e58219343ad1f9af67da7190796e3 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 M	generic/generic/pipelines.py
+:100755 100755 bef43e28ade1449312290b2e24dfa1f4158cbc86 305f6414e5172ebf35bd2142c5c7831207ee60ed M	generic/generic/settings.py
+:000000 100644 0000000000000000000000000000000000000000 a324e65b6c3ab2902ba4c1db4dcb7b1e215cea17 A	generic/generic/settings_override.py
+:100755 100755 5a819f922702608a814590db290829c6922d440e f6ec3dbd17b52a9836b4aae09f3049d52e152ec1 M	requirements.txt
+:000000 100755 0000000000000000000000000000000000000000 ab51331976f305b5c1af1859dadae9f78bb31a62 A	settings_override.sh
+commit 130b918511f9c322528f256e982e9b5df76e588d
+tree 5cb6bd433aa7ab6ea5bc6d38bd8830361121a8a5
+parent d961286ae85070becc122bb4042e66abdbb083fc
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 14:19:52 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 14:19:52 -0700
+
+    update jenkinsfile
+
+
+:100644 100644 4741481e612a863ca3ded75f79df51d931b30a76 5dc508a3c3b7542f97e439ae2857a5338651db19 M	Jenkinsfile
+commit d961286ae85070becc122bb4042e66abdbb083fc
+tree 17c45bef57f370fafbaae70b63ee26d8376a36c0
+parent 665082cb41b27f2ad16a300f05b66de6759a414f
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 14:07:37 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 14:07:37 -0700
+
+    update apple_jobs
+
+
+:100755 100755 2cfb81f6344fd11db32626c24a802115b948b23a 68a32d18b4a1f43d8f54eca17501dac1b35d14a0 M	generic/generic/spiders/apple_jobs.py
+commit 665082cb41b27f2ad16a300f05b66de6759a414f
+tree bff9b5c856b8fbb37be1badfc84106c5c8c59604
+parent 4614bd43225c34a828a3374ecad6c7f8a068b2bf
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 14:01:57 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 14:01:57 -0700
+
+    update jenkinsfile
+
+
+:100644 100644 a84f2b68d504e896b150d9944cd1f8e2cffdb8d4 4741481e612a863ca3ded75f79df51d931b30a76 M	Jenkinsfile
+commit 4614bd43225c34a828a3374ecad6c7f8a068b2bf
+tree 66eca8e5c5632efe3dd4ac0ceb89c5b1c981a9b8
+parent 413e3349d7805b9cf335ce5f78563dc208b301d1
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 14:00:40 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 14:00:40 -0700
+
+    update settings.py
+
+
+:100755 100755 63668d2b0ac147c3953cae4316688d56fcaaed4c bef43e28ade1449312290b2e24dfa1f4158cbc86 M	generic/generic/settings.py
+commit 413e3349d7805b9cf335ce5f78563dc208b301d1
+tree 5be7ad98ac9fbfca5f3008af34e86dc6d0aaf1a3
+parent 8bd5bf57016cc22e1552bcf2dabf280bd2cd1af5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 13:56:33 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 13:56:33 -0700
+
+    correct namespace capitalization in Jenkinsfile
+
+
+:100644 100644 11ab04bf7edcf5aab3512599b7f5821cc1a15cc2 a84f2b68d504e896b150d9944cd1f8e2cffdb8d4 M	Jenkinsfile
+commit 8bd5bf57016cc22e1552bcf2dabf280bd2cd1af5
+tree 97270c5301acf0e000d0a395ce89161ac23c1fbf
+parent dd2ad2d12b99c78239c54301880861bd38e508cc
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 13:44:34 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 13:44:34 -0700
+
+    update Dockerfile
+
+
+:100755 100755 94be73f6f77fb6797368f0e30ec108d6b0fcb690 d8f2a4f301ec0071dc568110bd8f09144991d7cf M	Dockerfile
+:100755 100755 e37d12fa8e89d8e3bfbf0e0164e0b1a6b19d6573 2cfb81f6344fd11db32626c24a802115b948b23a M	generic/generic/spiders/apple_jobs.py
+commit dd2ad2d12b99c78239c54301880861bd38e508cc
+tree d99d81e6256ea3d5d5361da4500e5f416f716d42
+parent e8cdb1818829e22c2d681b9f66e1902941586002
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 13:23:45 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 13:23:45 -0700
+
+    update Dockerfile
+
+
+:100755 100755 cb769011534027945239c5f9aa084dabfb915261 94be73f6f77fb6797368f0e30ec108d6b0fcb690 M	Dockerfile
+commit e8cdb1818829e22c2d681b9f66e1902941586002
+tree 2ab4f7c87ad93468f6ddbd11277c9e99f49bfe99
+parent 27b146da0b8996767fd1d5c2bf3ef27e42887490
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 13:09:38 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 13:09:38 -0700
+
+    update Dockerfile
+
+
+:100755 100755 9248368982c25ed5247c0c549e2afe4913a3bd81 cb769011534027945239c5f9aa084dabfb915261 M	Dockerfile
+commit 27b146da0b8996767fd1d5c2bf3ef27e42887490
+tree 9bbcd56e91af7f280123dc07dd5a701d8a810817
+parent 3daea0a4456972632e8796e5e89d8d61ec09a478
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 12:11:16 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 12:11:16 -0700
+
+    update Dockerfile
+
+
+:100755 100755 d0c0f585ee40b7b95b3f9370b0ddc8511447fa9d 9248368982c25ed5247c0c549e2afe4913a3bd81 M	Dockerfile
+commit 3daea0a4456972632e8796e5e89d8d61ec09a478
+tree 6534ee8b679371b8f5232c5977bca8330728fb43
+parent 1665225378c66fc19a69b418889096f67ae523ad
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 12:07:52 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 12:07:52 -0700
+
+    change dockerfile
+
+
+:100755 100755 9b8fe031ce886cf4e5747b307ed4e622d983924c d0c0f585ee40b7b95b3f9370b0ddc8511447fa9d M	Dockerfile
+:100644 100644 61c3a7e9ae0ce0df847681a41fd8ed61afd4aa54 40f505fccb092510dd74fd3eea81c9b6283f6d67 M	Dockerfile.test
+commit 1665225378c66fc19a69b418889096f67ae523ad
+tree 3589a4b609f82214477d9eb63278c99d759487f3
+parent b6a6feff0678d5482e88cda7b77af03bedbc3264
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 04:11:21 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 04:11:21 -0700
+
+    update jenkinsfile
+
+
+:100644 100644 0e1b9c571fd40734667b75a1d45ff3da647ec601 11ab04bf7edcf5aab3512599b7f5821cc1a15cc2 M	Jenkinsfile
+commit b6a6feff0678d5482e88cda7b77af03bedbc3264
+tree 355a71615aa3e7e75b5e5a71f91b586234801b8a
+parent 9b45752f8c9d306de160a471918694d9a237ea86
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 04:08:53 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 04:08:53 -0700
+
+    update jenkinsfile
+
+
+:100644 100644 513c26b9f669cb71cf15e11f1baf92b7b1d5964c 0e1b9c571fd40734667b75a1d45ff3da647ec601 M	Jenkinsfile
+commit 9b45752f8c9d306de160a471918694d9a237ea86
+tree a310c63d40905679dced9d8e3f34168ef32a4ee3
+parent 29d9bd5acd4b18af0e1cdb5f15458d9acc599c11
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 02:51:29 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 02:51:29 -0700
+
+    update jenkinsfile
+
+
+:100644 100644 e7acd3f4c72d1df18384cc00afee453c1aa1a01d 513c26b9f669cb71cf15e11f1baf92b7b1d5964c M	Jenkinsfile
+commit 29d9bd5acd4b18af0e1cdb5f15458d9acc599c11
+tree 36f7a357fb857e04c31e533a374df346936b0eed
+parent a84b901f3e6b44be1cbcd61672b595618dff5a99
+author alexneuman <alexshrugged92@gmail.com> 2024-09-02 02:18:16 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-02 02:18:16 -0700
+
+    move .env dir
+
+
+:100644 100644 43b005f304199ab0673a9f81185c9965c69ba487 e7acd3f4c72d1df18384cc00afee453c1aa1a01d M	Jenkinsfile
+:100755 100755 1af5f39c3a5abcf5efc85353cdc8562bbd8539c0 78cb8de3f0c68a4f54609b5770f7db841cb90b4a M	generic/generic/middlewares.py
+commit a84b901f3e6b44be1cbcd61672b595618dff5a99
+tree e19c9cc503aa90c0930d15b3fb00cf61c534f822
+parent 88536973eb9d56721aaa2015b786261234f3e5d2
+author alexneuman <alexshrugged92@gmail.com> 2024-09-01 20:14:50 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-01 20:14:50 -0700
+
+    update jenkinsfile
+
+
+:100644 100644 01847f76c205ee35f40639f73abc6a2bc3973d03 43b005f304199ab0673a9f81185c9965c69ba487 M	Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 d5eee5ac97541f596057d7793e5b935b92079638 A	helm/templates/istio/01-namespace.yaml
+:100755 100755 45b8b9f1b2fbace95fe3cf891610b6f5d53c4260 d47126683df7c3422440cb3113fe2dd52c4fee1e M	helm/templates/scrapy/scrapy-job.yaml
+:100755 100755 462ceefc7931def0f573543c6626821d4c345169 d6259eec415fe30a8dcc5ca55eab829a844a3681 M	helm/values.yaml
+commit 88536973eb9d56721aaa2015b786261234f3e5d2
+tree cfa8ab710ef3fae116360a44e6eee350d2f2cdf4
+parent 0f1c5ec9086e299201e0587c5ef03888b50fd627
+author alexneuman <alexshrugged92@gmail.com> 2024-09-01 16:31:28 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-01 16:31:28 -0700
+
+    update jenkinsfile
+
+
+:100644 100644 0c0224670b2824323ef56e1969e6050b2ffa49f3 01847f76c205ee35f40639f73abc6a2bc3973d03 M	Jenkinsfile
+commit 0f1c5ec9086e299201e0587c5ef03888b50fd627
+tree 0f9117d408a7d8e6faccdc28d679549894ad33f4
+parent 9261bee2cc06ccac385493314b43411e78a6b336
+author alexneuman <alexshrugged92@gmail.com> 2024-09-01 15:49:56 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-01 15:49:56 -0700
+
+    edit jenkinsfile
+
+
+:100644 100644 6bf9d97fe1f507624290be560dd06f078c5a5ef0 0c0224670b2824323ef56e1969e6050b2ffa49f3 M	Jenkinsfile
+commit 9261bee2cc06ccac385493314b43411e78a6b336
+tree 8cf07980655de0152e6ce9e81459d9b0732ba299
+parent f83df069970ef6f6344752494ea23efdc5fc8562
+author alexneuman <alexshrugged92@gmail.com> 2024-09-01 13:28:02 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-01 13:28:02 -0700
+
+    fix jenkinsfile > Jenkinsfile
+
+
+:000000 100644 0000000000000000000000000000000000000000 6bf9d97fe1f507624290be560dd06f078c5a5ef0 A	Jenkinsfile
+commit f83df069970ef6f6344752494ea23efdc5fc8562
+tree b268ce631848518ffe0e796abf6a7258e115e3a3
+parent 74e6bd55966bca03a4ae1cf35fddf0f01e3790b3
+author alexneuman <alexshrugged92@gmail.com> 2024-09-01 13:27:39 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-01 13:27:39 -0700
+
+    remove Jenkinsfile
+
+
+:100644 000000 6bf9d97fe1f507624290be560dd06f078c5a5ef0 0000000000000000000000000000000000000000 D	jenkinsfile
+commit 74e6bd55966bca03a4ae1cf35fddf0f01e3790b3
+tree 4dde5fa96933ad9504282f82bebd6e0c1017c559
+parent 2912828f12f4903835628fcfd0e21e64bd203c71
+author alexneuman <alexshrugged92@gmail.com> 2024-09-01 13:23:39 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-01 13:23:39 -0700
+
+    add jenkinsfile
+
+
+:000000 100644 0000000000000000000000000000000000000000 98f68853b4ac5bb3682b0e408b25351ac41af33f A	helm/templates/istio/kiali.yaml
+:000000 100644 0000000000000000000000000000000000000000 9bedfcdad6e73740266216c535b9ab48fd1373d3 A	helm/templates/istio/prometheus.yaml
+:000000 100644 0000000000000000000000000000000000000000 90af2c29fb53084dc2b37bcca16fd4f8bbeaf3d3 A	helm/templates/redis-insight/redisinsight.yaml
+:000000 100644 0000000000000000000000000000000000000000 6bf9d97fe1f507624290be560dd06f078c5a5ef0 A	jenkinsfile

@@ -1,0 +1,211 @@
+Started by upstream project "[8mha:////4F0101RJhgJnDXMxN5gtbHPdhgv7jcfgnT58ctaKWQyqAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyVEgY9/az8JP3i5KLEgkrdgsyCVKDFqdjEdHMTM/P0AXrpsnrjAAAA[0mscrapy-pipeline/scrapy-pipeline-main" build number [8mha:////4DF5gltfKhijRgVxnzmwxnoInwjB6qS6cxHv9a8EUD6uAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYD/az8JP3i5KLEgkrdgsyCVKDFqdjEdHMTM/P0jYwA0kg8P+UAAAA=[0m22
+originally caused by:
+ Started by user [8mha:////4BxAM9PRl3aGsZ0B/yHFcBIM7LxnXS7KuMi45KRkJW0lAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZu/dLi1CL9xJTczDwAZ3pnlMAAAAA=[0mAlex
+ Replayed [8mha:////4LwWoWB/bx+EKVMSqrZRVaKNhaV8lgP6Z15GX8RL28JPAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZD/az8JP3i5KLEgkrdgsyCVKDFqdjEdHMTM/P0jQz1ARen9cDmAAAA[0m#21
+Obtained jenkins/Jenkinsfile-deploy from git https://github.com/alexneuman/scrapy_pipeline
+[8mha:////4JqsdNzBK0LSeRaQnSCAQ2Lt6BVm0CFAXcB8/qEW5yP0AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IuLDzHBhIB4z+5FdGQpT8oIqtbml8wiQjT5ORDCh0v9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4ENilgKzKF/r2GNgUIAiAebRgXZrZKIK4xWs8TiZkW9ZAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZ+/eT83ILSktQi/dzKgkx9AAi4Re/EAAAA[0mmypi in /home/mypi/workspace/scrapy-pipeline/scrapy-pipeline-deploy-jobs
+[8mha:////4M0FQafv8bnoLV7sUkY0go3qpiONQWgB8G8lDU6FpTRqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NjtBr3KVEmN41x25JVio1E5V8GmSNEpOUtuYU5rGLw5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NGmsyXSHOyia86l09w6gHWutKfteiMKsnbO5UT4LqPOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CvYma5TVv2kSlOQHsedQJlQZy7zaWgS8cxuqM2LZV9qAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+using credential github-credentials
+ > git rev-parse --resolve-git-dir /home/mypi/workspace/scrapy-pipeline/scrapy-pipeline-deploy-jobs/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/alexneuman/scrapy_pipeline # timeout=10
+Fetching upstream changes from https://github.com/alexneuman/scrapy_pipeline
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/alexneuman/scrapy_pipeline +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 8ca0ebde37edd3a35524ce7ae7e05648b72967cf (refs/remotes/origin/dev)
+Commit message: "pass SPIDER_NAME to job completion stage"
+ > git rev-parse refs/remotes/origin/dev^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8ca0ebde37edd3a35524ce7ae7e05648b72967cf # timeout=10
+ > git rev-list --no-walk 8ca0ebde37edd3a35524ce7ae7e05648b72967cf # timeout=10
+[8mha:////4KdR4iT9XpXUJP4Y3lU6SRy6/Nly27zfBvxwGEA8WtPlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4OvMlILOkPiH4XbK248af4wy/V0fwS+NTRFkAG2SLFlsAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4J7fW7roPwzz2DUTfyaHgdG0a9hhV4guOdVOmtkG09aYAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4LUWLIZyier/XlX5N9tpDoSTaGT99nyYVOulvgQsZer2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4OuutfnJRfDnWtIcESyum0EuhL3jRYNgDjztE7HuSa/UAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4KopL4pGuR8hBczhXoXX9/MPuEXlnjjBNqlCy8+7enwLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Deploy Spider)
+[8mha:////4AM+8QSkqSgTS/VcDrhjEsF4IPcQD6E2Z7ZPfBeM5Jy4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $KUBECONFIG
+[8mha:////4BKyJYW8vqEI/kkgfI7xuZKE4i6uF3/n53X+lbmCTy6uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4DAZBokNyxxWUgTMkyxpz0XyFZshXg8bjHeoNIQmLEC0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ kubectl config use-context default
+Switched to context "default".
+[8mha:////4Ccpwgq2V6CwfSV0dkiiDCAZx465lSFEH6tLJ8qfcBR/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] sh
++ kubectl get pods -A
+NAMESPACE     NAME                                            READY   STATUS             RESTARTS       AGE
+default       postgres-statefulset-0                          1/1     Running            0              13s
+default       redis-595dfb697c-m9nbs                          1/1     Running            1 (12m ago)    16m
+default       redis-commander-55bdcd745f-pgh4f                0/1     CrashLoopBackOff   10 (59s ago)   16m
+default       redisinsight-6cd776b4db-rfdmj                   1/1     Running            1 (12m ago)    16m
+default       scrapy-error-logs-deployment-6c6c55cb5b-hkhh2   1/1     Running            0              13s
+default       scrapy-job-scrapy-mylegion-269jb                1/1     Running            1 (12m ago)    16m
+default       scrapy-job-scrapy-mylegion-nj9tf                1/1     Running            1 (12m ago)    16m
+kube-system   coredns-576bfc4dc7-wlbl4                        1/1     Running            2 (12m ago)    13h
+kube-system   local-path-provisioner-6795b5f9d8-xz4f5         1/1     Running            1 (26h ago)    4d7h
+kube-system   metrics-server-557ff575fb-8whf5                 1/1     Running            2 (12m ago)    13h
+kube-system   svclb-redisinsight-service-e91f2305-4x8ts       0/1     Pending            0              16m
+kube-system   svclb-redisinsight-service-e91f2305-9g24r       0/1     Pending            0              16m
+kube-system   svclb-traefik-1d4b0aec-lhqkl                    2/2     Running            2 (26h ago)    4d19h
+kube-system   svclb-traefik-1d4b0aec-xswph                    2/2     Running            8 (12m ago)    38h
+kube-system   traefik-5fb479b77-gsswb                         1/1     Running            11 (26h ago)   4d7h
+[8mha:////4JY1bLUtXZPeZgUlescMV5FqldZizZqo9Lv2qydZEiAaAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDEhIiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOLXOiKwgAAAA==[0m[Pipeline] script
+[8mha:////4DoFlexD4WWVeWOweWBQxyCivbFZfkKEoqNcnLkBnYCfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4F30K1AlDZNfd2DoeitUFyvq6RaciZzDdSmz4bj2sBqxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ kubectl create ns scrapy-mylegion
+Error from server (AlreadyExists): namespaces "scrapy-mylegion" already exists
++ true
+[8mha:////4NzZCKHUY8QttlgG8bd8rXJ5ipuns9RF8YAqSKCrsPgYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ helm uninstall scrapy-mylegion
+release "scrapy-mylegion" uninstalled
+[8mha:////4FMJK6SOHCWfMPPcss9twKVXi3H/w6Lf4ZKljk3/4NkxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPeHXHXtP5vywgS+AAAA[0m[Pipeline] sh
++ ISRUNNING=
++ ATTEMPTS=20
++ [ -z  ]
++ [ 20 -gt 0 ]
++ echo Not completed...
+Not completed...
++ sleep 5
++ helm install scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+W0907 03:15:49.830266    6139 warnings.go:70] unknown field "spec.template.spec.containers[0].ports[0].port"
+NAME: scrapy-mylegion
+LAST DEPLOYED: Sat Sep  7 03:15:49 2024
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
++ kubectl get job scrapy-job-scrapy-mylegion -o jsonpath={.status}
++ grep "active":2
++ grep ready":2
++ ISRUNNING=
++ ISRUNNING=
++ ATTEMPTS=19
++ [ -z  ]
++ [ 19 -gt 0 ]
++ echo Not completed...
+Not completed...
++ sleep 5
++ helm install scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+Error: INSTALLATION FAILED: cannot re-use a name that is still in use
++ helm upgrade scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+W0907 03:15:58.826011    6683 warnings.go:70] unknown field "spec.template.spec.containers[0].ports[0].port"
+Release "scrapy-mylegion" has been upgraded. Happy Helming!
+NAME: scrapy-mylegion
+LAST DEPLOYED: Sat Sep  7 03:15:57 2024
+NAMESPACE: default
+STATUS: deployed
+REVISION: 2
+TEST SUITE: None
++ kubectl get job scrapy-job-scrapy-mylegion -o jsonpath={.status}
++ grep "active":2
++ grep ready":2
++ ISRUNNING=
++ ISRUNNING=
++ ATTEMPTS=18
++ [ -z  ]
++ [ 18 -gt 0 ]
++ echo Not completed...
+Not completed...
++ sleep 5
++ helm install scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+Error: INSTALLATION FAILED: cannot re-use a name that is still in use
++ helm upgrade scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+W0907 03:16:07.192609    6806 warnings.go:70] unknown field "spec.template.spec.containers[0].ports[0].port"
+Release "scrapy-mylegion" has been upgraded. Happy Helming!
+NAME: scrapy-mylegion
+LAST DEPLOYED: Sat Sep  7 03:16:05 2024
+NAMESPACE: default
+STATUS: deployed
+REVISION: 3
+TEST SUITE: None
++ grep "active":2
++ grep ready":2
++ kubectl get job scrapy-job-scrapy-mylegion -o jsonpath={.status}
++ ISRUNNING=
++ ISRUNNING=
++ ATTEMPTS=17
++ [ -z  ]
++ [ 17 -gt 0 ]
++ echo Not completed...
+Not completed...
++ sleep 5
++ helm install scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+Error: INSTALLATION FAILED: cannot re-use a name that is still in use
++ helm upgrade scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+W0907 03:16:15.062741    6924 warnings.go:70] unknown field "spec.template.spec.containers[0].ports[0].port"
+Release "scrapy-mylegion" has been upgraded. Happy Helming!
+NAME: scrapy-mylegion
+LAST DEPLOYED: Sat Sep  7 03:16:12 2024
+NAMESPACE: default
+STATUS: deployed
+REVISION: 4
+TEST SUITE: None
++ kubectl get job scrapy-job-scrapy-mylegion -o jsonpath={.status}
++ grep "active":2
++ grep ready":2
++ ISRUNNING=
++ ISRUNNING=
++ ATTEMPTS=16
++ [ -z  ]
++ [ 16 -gt 0 ]
++ echo Not completed...
+Not completed...
++ sleep 5
++ helm install scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+Error: INSTALLATION FAILED: cannot re-use a name that is still in use
++ helm upgrade scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+W0907 03:16:24.296445    7367 warnings.go:70] unknown field "spec.template.spec.containers[0].ports[0].port"
+Release "scrapy-mylegion" has been upgraded. Happy Helming!
+NAME: scrapy-mylegion
+LAST DEPLOYED: Sat Sep  7 03:16:22 2024
+NAMESPACE: default
+STATUS: deployed
+REVISION: 5
+TEST SUITE: None
++ kubectl get job scrapy-job-scrapy-mylegion -o jsonpath={.status}
++ grep "active":2
++ grep ready":2
++ ISRUNNING=
++ ISRUNNING=
++ ATTEMPTS=15
++ [ -z  ]
++ [ 15 -gt 0 ]
++ echo Not completed...
+Not completed...
++ sleep 5
++ helm install scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+Error: INSTALLATION FAILED: cannot re-use a name that is still in use
++ helm upgrade scrapy-mylegion k8s/helm/ --set SPIDER_IMAGE=alexshrugged92/mylegion:8ca0ebd --set SPIDER_NAME=scrapy-mylegion --set SPIDER_REPLICAS=2 --set 5=5
+W0907 03:16:32.211185    7744 warnings.go:70] unknown field "spec.template.spec.containers[0].ports[0].port"
+Release "scrapy-mylegion" has been upgraded. Happy Helming!
+NAME: scrapy-mylegion
+LAST DEPLOYED: Sat Sep  7 03:16:30 2024
+NAMESPACE: default
+STATUS: deployed
+REVISION: 6
+TEST SUITE: None
++ kubectl get job scrapy-job-scrapy-mylegion -o jsonpath={.status}
++ grep "active":2
++ grep ready":2
++ ISRUNNING={"active":2,"ready":2,"startTime":"2024-09-07T03:15:49Z","terminating":0,"uncountedTerminatedPods":{}}
++ ATTEMPTS=14
++ [ -z {"active":2,"ready":2,"startTime":"2024-09-07T03:15:49Z","terminating":0,"uncountedTerminatedPods":{}} ]
+[8mha:////4CseXyGtxfuhk09zYkvRDmZG8AnoT31pUthTNLp+ulfnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] }
+[8mha:////4OwkmWWkWacZFBBG0zcDN5s9JJg9eLx0bgN5FNXLv3CsAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] // script
+[8mha:////4PPuJ4nvZ4zMhfC1pu3X9QUutaIFy59sm/jC3NbVzFxDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikFIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QEY2KUHvgAAAA==[0m[Pipeline] }
+[8mha:////4LcmMlD+LMOGzU/6AkjAf6spJxVgXWe6zp4GGBY83jguAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8gmjb2vgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4GCWoGb2H2CFnA2TlB37xgf1dz0BI1a3t4JKQ3f4LuguAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8m3A6jvgAAAA==[0m[Pipeline] }
+[8mha:////4KgdPVHIqBD7BlGoEIBKfktpe7HjFQm34FmYibhE9O9MAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QFlXl8lvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ebc2AeDkulj7vDVUeoZlEnfJNPbuzYK5eUc/8WkTLUOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP3rcCne+AAAA[0m[Pipeline] }
+[8mha:////4JARh+2ITKtFZLFX1iy+CpKDROisusPu3kBkhGrIIPXkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISRImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B5C2dYG+AAAA[0m[Pipeline] // withEnv
+[8mha:////4Krr82d52uvvMGuHCfC/Af2qXiZLUMJd0r8HD3JN5L0tAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BPqPtor0AAAA=[0m[Pipeline] }
+[8mha:////4BUA+fQ+BBnIfyhEbd4lSlICwoAyGmjHWGAfrDpB4LDZAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR9NTCl7vQAAAA==[0m[Pipeline] // node
+[8mha:////4FJtAatrczwMJ3AUgUGbBaZRBXh16iP0FmRsyX+fozMOAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h9rVU4xvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

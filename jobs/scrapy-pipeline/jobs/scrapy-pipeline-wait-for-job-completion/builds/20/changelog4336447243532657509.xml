@@ -1,0 +1,10 @@
+commit 11d11ed1cff52e4a22460dac0edaba3d9765087c
+tree 78702cb9dbd95cb7dcbe27f5b443723c48c7cb5d
+parent f8639ecec790f4743e92c4157d22c279153729d4
+author alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:08:16 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:08:16 -0700
+
+    add boolean check for True to Dockerfile
+
+
+:100755 100755 162a7dd3bef923dcdc38eac0cd84af580c3f8a38 2fe34c60d72fec09a0c93816ea3a62a520600ffa M	Dockerfile

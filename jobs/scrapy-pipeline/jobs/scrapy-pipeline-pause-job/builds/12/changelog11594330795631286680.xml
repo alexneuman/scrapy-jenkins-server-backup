@@ -1,0 +1,63 @@
+commit 289206b2e42fbd03d93567f282b37346c541fd4b
+tree c92e764e90def59bb342ed6a81f677bd051c4737
+parent 823ff46dd84cc98bbd286afa1e112788622e4f2c
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:54:46 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:54:46 -0700
+
+    parameterize SPIDER_REPLICAS for resume-job
+
+
+:100644 100644 f789b6ce13f68f9dc1b748500dedb16a06bfdd23 6940b6289866c8db386579f95d008ca91c0a4f8d M	jenkins/Jenkinsfile-resume-job
+commit 823ff46dd84cc98bbd286afa1e112788622e4f2c
+tree 042bd8fa893fd9d3b99a9d8be646d748588baba8
+parent cfc37a1ede77a990604f4f8ac362c934a8da703a
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:34:33 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:34:33 -0700
+
+    remove original Jenkinsfile
+
+
+:100644 000000 8689813a98230c12e55d241cd5c97d4f7d55c9f3 0000000000000000000000000000000000000000 D	Jenkinsfile
+commit cfc37a1ede77a990604f4f8ac362c934a8da703a
+tree 7ca2401c2f4ddadb65913c12b5be836deabba4f0
+parent 5cdc2c15dcfe08ea36da5f9935d6247ac6d05760
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:04:24 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 06:04:24 -0700
+
+    removed commented code
+
+
+:100755 100755 518bc72bf7b5953828f92895d54a54d816d5ada4 f04584de2b21034061cf6391408bed923e0397de M	k8s/helm/templates/scrapy/scrapy-job.yaml
+commit 5cdc2c15dcfe08ea36da5f9935d6247ac6d05760
+tree 98f21ff388f71b1992498ef75d965221d2c60451
+parent c476201c05b926c59eb86158f73bebd8929a1b9f
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:34:35 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:34:35 -0700
+
+    add timeout to wait-for-job-completion
+
+
+:100644 100644 cbb8ba319ca1be1ae0d3c77dedaac2b0bbe7f701 58fef50af0b2ab3c61fcbeb4595140342a411ab5 M	jenkins/Jenkinsfile-wait-for-job-completion
+commit c476201c05b926c59eb86158f73bebd8929a1b9f
+tree 256b77b43805970820d1305208958bdd642d9857
+parent 2c707a87e1238f42b8add71469eed8e6be765354
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:28:01 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 05:28:01 -0700
+
+    remove timeout from jobs wai-for-completion
+
+
+:100644 100644 6e95ffa1645b5830f8687df435f189898d6df8d3 cbb8ba319ca1be1ae0d3c77dedaac2b0bbe7f701 M	jenkins/Jenkinsfile-wait-for-job-completion
+commit 2c707a87e1238f42b8add71469eed8e6be765354
+tree 0bf7277cb2b1db4d4c8f1f27136f8190e818ee0c
+parent 4cd7fc32f207a0d77e18bbd6071ab7989cc3f9ae
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 04:27:43 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 04:27:43 -0700
+
+    move instance path to scrapy-pipeline/
+
+
+:100644 100644 d86bd79a16c238cbeb7e3c73bbc3d8f57e1a3967 407c5c821a4bc86f59024b7f31c40b116f44d0dc M	jenkins/Jenkinsfile-pause-job
+:100644 100644 447e6f8f01f4a7e753c8630cc53d68b572dfae0f f789b6ce13f68f9dc1b748500dedb16a06bfdd23 M	jenkins/Jenkinsfile-resume-job
+:100644 100644 44837408bfb01447cc719bcd74b34cf1643ad8c2 a618f954c1e02d7c293264363c2be49fb0844ae5 M	jenkins/Jenkinsfile-update-job
+:100644 000000 8689813a98230c12e55d241cd5c97d4f7d55c9f3 0000000000000000000000000000000000000000 D	jenkins/old.Jenkinsfile-main

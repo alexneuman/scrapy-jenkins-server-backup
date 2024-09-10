@@ -1,0 +1,32 @@
+commit 88be72da9923efacf36e6f9b6613c7edae04da58
+tree d367e00c89108b59bed1bdf01333980d237f15dc
+parent 7cb189062bc6a2246414b32faa18a49cc3a11dfe
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 10:23:11 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 10:23:11 -0700
+
+    remove hard coded values
+
+
+:100644 100644 6940b6289866c8db386579f95d008ca91c0a4f8d 15cc636a17e77cf4664b075347b942cb285ce719 M	jenkins/Jenkinsfile-resume-job
+:100644 100644 a618f954c1e02d7c293264363c2be49fb0844ae5 c890d6a17ef2fbbbdc3cdf9f035696c699450cc3 M	jenkins/Jenkinsfile-update-job
+commit 7cb189062bc6a2246414b32faa18a49cc3a11dfe
+tree 487e68e6a437249738698756692b0c4e3a691b4f
+parent 8893bbc79d96d5aaae85a7e353b00507199be79e
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 09:39:59 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 09:39:59 -0700
+
+    remove hard coded value
+
+
+:100644 100644 f4e6b791ba9f09c95538fdfdf5da7db1393d02a1 5b3e26e8c4ed31414c5d0b919ac1a70efe2a50a0 M	jenkins/Jenkinsfile-deploy
+commit 8893bbc79d96d5aaae85a7e353b00507199be79e
+tree 2c613ff2f5a90f77926e6b518105ba88f84e44b2
+parent 289206b2e42fbd03d93567f282b37346c541fd4b
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 09:15:36 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 09:15:36 -0700
+
+    remove hard coded SPIDER_NAME variable
+
+
+:100755 100755 0450a3bdb0911bf9322ce763bcc0da781d30f3b7 6f965af83c2abca273550b4f21cf27f06dcd7651 M	.DS_Store
+:100644 100644 966b7f60e75711058f22bff7292a279baca28bcb f4e6b791ba9f09c95538fdfdf5da7db1393d02a1 M	jenkins/Jenkinsfile-deploy

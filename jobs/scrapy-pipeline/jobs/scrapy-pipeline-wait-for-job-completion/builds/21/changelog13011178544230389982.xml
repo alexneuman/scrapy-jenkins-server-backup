@@ -1,0 +1,31 @@
+commit 5ef383f617473c430c068a51fc1796a3b220cb49
+tree 1f6c76c210fef31a19001ef26dfdd297bf6380aa
+parent 1c9d9277c7097f9407417d38a16c794c9ad14f60
+author alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:18:34 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:18:34 -0700
+
+    add param PLAYWRIGHT_ENABLED to build stage
+
+
+:100644 100644 e824567c63257deec272266983510041a5ebe0d7 f711c4bccbd822ab5d1c7f40aa07145fedc918fb M	jenkins/Jenkinsfile-main
+commit 1c9d9277c7097f9407417d38a16c794c9ad14f60
+tree ba97627856313dc021b72093ca2722b88b26ca80
+parent 747657e31042109c44993a0664b429f5f6452a7e
+author alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:15:36 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:15:36 -0700
+
+    add param PLAYWRIGHT_HEADLESS to build stage
+
+
+:100644 100644 bb066ac08d35b32f701e48d3c704bbccc5695f67 dfa96dae6fee7f82bca83740846a725e232e9e45 M	jenkins/Jenkinsfile-build-image
+:100644 100644 b0fa83effa3e4e1a6dc5f3942b78e7210b084d1a e824567c63257deec272266983510041a5ebe0d7 M	jenkins/Jenkinsfile-main
+commit 747657e31042109c44993a0664b429f5f6452a7e
+tree 1dc9139f97a459d637270dbc2e9a290ed0d57b20
+parent 11d11ed1cff52e4a22460dac0edaba3d9765087c
+author alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:11:49 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:11:49 -0700
+
+    remove hardcoded PLAYWRIGHT_ENABLED from Jenkinsfile-build
+
+
+:100644 100644 dfa96dae6fee7f82bca83740846a725e232e9e45 bb066ac08d35b32f701e48d3c704bbccc5695f67 M	jenkins/Jenkinsfile-build-image

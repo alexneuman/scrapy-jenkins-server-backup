@@ -1,0 +1,1 @@
+scrapy-pipeline-wait-for-job-completion

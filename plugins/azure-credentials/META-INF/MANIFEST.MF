@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Azure Credentials
+Specification-Version: 0.0
+Implementation-Title: Azure Credentials
+Implementation-Version: 312.v0f3973cd1e59
+Plugin-Class: com.microsoft.azure.util.AzureCredentialsPlugin
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: azure-credentials
+Short-Name: azure-credentials
+Long-Name: Azure Credentials
+Url: https://github.com/jenkinsci/azure-credentials-plugin
+Compatible-Since-Version: 4.0.0
+Plugin-Version: 312.v0f3973cd1e59
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: azure-sdk:132.v62b_48eb_6f32f,caffeine-api:3.1.8-13
+ 3.v17b_1ff2e0599,credentials-binding:642.v737c34dea_6c2,credentials:130
+ 7.v3757c78f17c3,plain-credentials:143.v1b_df8b_d3b_e48,pipeline-model-d
+ efinition:2.2150.v4cfd8916915c;resolution:=optional
+Plugin-Developers: Xu Zhang:xuzhang:xuzhang3@microsoft.com,Tim Jacomb:ti
+ mja:
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/azure-credent
+ ials-plugin
+Plugin-ScmTag: 0f3973cd1e59c80f196c0e67f046fb63b074bdb2
+Plugin-ScmUrl: https://github.com/jenkinsci/azure-credentials-plugin
+Plugin-GitHash: 0f3973cd1e59c80f196c0e67f046fb63b074bdb2
+Implementation-Build: 0f3973cd1e59c80f196c0e67f046fb63b074bdb2
+

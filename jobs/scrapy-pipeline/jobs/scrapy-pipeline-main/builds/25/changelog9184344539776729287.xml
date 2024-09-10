@@ -1,0 +1,23 @@
+commit 11d11ed1cff52e4a22460dac0edaba3d9765087c
+tree 78702cb9dbd95cb7dcbe27f5b443723c48c7cb5d
+parent f8639ecec790f4743e92c4157d22c279153729d4
+author alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:08:16 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:08:16 -0700
+
+    add boolean check for True to Dockerfile
+
+
+:100755 100755 162a7dd3bef923dcdc38eac0cd84af580c3f8a38 2fe34c60d72fec09a0c93816ea3a62a520600ffa M	Dockerfile
+commit f8639ecec790f4743e92c4157d22c279153729d4
+tree 9f90daeb4b967c3fba1f2d91ccecaab5ecbd307b
+parent 8ca0ebde37edd3a35524ce7ae7e05648b72967cf
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 23:10:04 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 23:10:04 -0700
+
+    add topology to scrapy job
+
+
+:100644 100644 4b909a9008cd6837cab1b53296ac7b434bc8da62 cf51b0a62e1ad3c1c290c98e1f6e466ea7e9c430 M	jenkins/Jenkinsfile-deploy
+:100755 100755 f04584de2b21034061cf6391408bed923e0397de 947c43476103388ecfb9833e1ceac8a416697e57 M	k8s/helm/templates/scrapy/scrapy-job.yaml
+:100755 100755 89ae13a46eb1769c1e55713fa0edccd1a4e1cca0 4a22b42eb3b0cdffb2b6c38d26a2da341747a120 M	k8s/helm/values.yaml
+:100644 100644 54624704395617f3390cf84cc591f59dff0e9708 b44d64487883665b5a0b13a6130fe1449314a717 M	skaffold.yaml
