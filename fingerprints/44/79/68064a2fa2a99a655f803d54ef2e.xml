@@ -5,68 +5,36 @@
   <fileName>Credential id=github-credentials name=github-credentials</fileName>
   <usages>
     <entry>
-      <string>scrapy-pipeline-build-image</string>
-      <ranges>13-19,21-115</ranges>
-    </entry>
-    <entry>
-      <string>scrapy-pipeline/scrapy-pipeline-deploy-errorlog</string>
-      <ranges>1-25</ranges>
-    </entry>
-    <entry>
-      <string>scrapy-pipeline/scrapy-pipeline-wait-for-job-completion</string>
-      <ranges>1-21</ranges>
-    </entry>
-    <entry>
-      <string>scrapy-pipeline-main</string>
-      <ranges>5,8-23,25-37,39-46,49-63</ranges>
-    </entry>
-    <entry>
-      <string>scrapy-pipeline/scrapy-pipeline-build-image</string>
-      <ranges>1-26</ranges>
-    </entry>
-    <entry>
-      <string>scrapy-pipeline-update-job</string>
-      <ranges>1,6-9,11-30,35,37-40,42-46,51-70</ranges>
-    </entry>
-    <entry>
-      <string>scrapy-pipeline-resume-job</string>
-      <ranges>3-5</ranges>
-    </entry>
-    <entry>
-      <string>scrapy-pipeline-pause-job</string>
-      <ranges>1-5</ranges>
-    </entry>
-    <entry>
-      <string>test</string>
-      <ranges>1-3,5,8-64,67-78,81</ranges>
-    </entry>
-    <entry>
-      <string>scrapy-pipeline-deploy-jobs</string>
-      <ranges>326-341,343-348,350-387</ranges>
-    </entry>
-    <entry>
-      <string>scrapy-pipeline-wait-for-job-completion</string>
-      <ranges>11-29</ranges>
+      <string>scrapy-pipeline/scrapy-pipeline-get-build-params</string>
+      <ranges>15-92</ranges>
     </entry>
     <entry>
       <string>scrapy-pipeline/scrapy-pipeline-pause-job</string>
       <ranges>1-14</ranges>
     </entry>
     <entry>
-      <string>scrapy-pipeline-deploy-errorlog</string>
-      <ranges>1-46,49-63</ranges>
+      <string>scrapy-pipeline/scrapy-pipeline-wait-for-job-completion</string>
+      <ranges>1-21</ranges>
     </entry>
     <entry>
       <string>scrapy-pipeline/scrapy-pipeline-deploy-jobs</string>
       <ranges>1-40</ranges>
     </entry>
     <entry>
-      <string>scrapy-pipeline/scrapy-pipeline-main</string>
-      <ranges>1-28</ranges>
+      <string>scrapy-pipeline/scrapy-pipeline-deploy-errorlog</string>
+      <ranges>1-39</ranges>
     </entry>
     <entry>
       <string>scrapy-pipeline/scrapy-pipeline-resume-job</string>
       <ranges>1-3,5-19</ranges>
+    </entry>
+    <entry>
+      <string>scrapy-pipeline/scrapy-pipeline-main</string>
+      <ranges>1-41</ranges>
+    </entry>
+    <entry>
+      <string>scrapy-pipeline/scrapy-pipeline-build-image</string>
+      <ranges>1-199</ranges>
     </entry>
   </usages>
   <facets>
@@ -156,21 +124,6 @@
       <timestamp0>1725631774393</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
-      <timestamp>1725707959796</timestamp>
-      <itemFullName>scrapy-pipeline/scrapy-pipeline-main</itemFullName>
-      <timestamp0>1725707826656</timestamp0>
-    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
-    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
-      <timestamp>1725707976148</timestamp>
-      <itemFullName>scrapy-pipeline/scrapy-pipeline-build-image</itemFullName>
-      <timestamp0>1725707601058</timestamp0>
-    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
-    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
-      <timestamp>1725708456271</timestamp>
-      <itemFullName>scrapy-pipeline/scrapy-pipeline-deploy-errorlog</itemFullName>
-      <timestamp0>1725707415970</timestamp0>
-    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
-    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
       <timestamp>1725708471273</timestamp>
       <itemFullName>scrapy-pipeline/scrapy-pipeline-deploy-jobs</itemFullName>
       <timestamp0>1725707430979</timestamp0>
@@ -184,6 +137,36 @@
       <timestamp>1725709578328</timestamp>
       <itemFullName>scrapy-pipeline/scrapy-pipeline-resume-job</itemFullName>
       <timestamp0>1725709528419</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
+      <timestamp>1726839026997</timestamp>
+      <itemFullName>scrapy-pipeline/scrapy-pipeline-main</itemFullName>
+      <timestamp0>1726838992107</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
+      <timestamp>1726839072035</timestamp>
+      <itemFullName>scrapy-pipeline/scrapy-pipeline-deploy-errorlog</itemFullName>
+      <timestamp0>1726839042697</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
+      <timestamp>1726847181834</timestamp>
+      <itemFullName>scrapy-pipeline/scrapy-pipeline-echo-docker-image</itemFullName>
+      <timestamp0>1726846991793</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
+      <timestamp>1727210870172</timestamp>
+      <itemFullName>scrapy-pipeline/delete_spidercache</itemFullName>
+      <timestamp0>1727210870172</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
+      <timestamp>1727325032498</timestamp>
+      <itemFullName>scrapy-pipeline/scrapy-pipeline-build-image</itemFullName>
+      <timestamp0>1727323437072</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1371.vfee6b_095f0a_3">
+      <timestamp>1727325047480</timestamp>
+      <itemFullName>scrapy-pipeline/scrapy-pipeline-get-build-params</itemFullName>
+      <timestamp0>1727323457083</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
   </facets>
 </fingerprint>

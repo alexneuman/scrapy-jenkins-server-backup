@@ -1,0 +1,20 @@
+commit 20b79e4070c760b78131d9dcc68743613be3d5e5
+tree 415917166ac53e8464b442183545920e75ef5741
+parent 143278615386560d462ead1a9a813c263ea3d7c6
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 10:00:24 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 10:00:24 -0700
+
+    add SPIDER_VERSION to Jenkins-build-image
+
+
+:100644 100644 e2a163ecc989d53f953484c2c08f4c879d347ce9 019216310b29b192953b8519031663e323f1b3ae M	jenkins/Jenkinsfile-build-image
+commit 143278615386560d462ead1a9a813c263ea3d7c6
+tree 50a59f57cdc80cec9e25d06540b5b184ca5cea3e
+parent eb066b69de803ad802a83237c38c98ba4793fcfa
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 09:57:27 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 09:57:27 -0700
+
+    refactor build image to use external repo for id
+
+
+:100644 100644 9a8493bbfc9a743d87627d9c48f6995779b48944 e2a163ecc989d53f953484c2c08f4c879d347ce9 M	jenkins/Jenkinsfile-build-image

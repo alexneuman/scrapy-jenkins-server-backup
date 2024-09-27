@@ -1,0 +1,5 @@
+Started by upstream project "[8mha:////4Nq0qZSd4QdDkH2KAjWx/r6ZLZEkmMgyK9nupkdxLAbKAAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAztEgZT/az8JP3i5KLEgkrdgsyCVKDFqdjEdJNKM3NSdDNzE9NT9QGEBfG66gAAAA==[0mscrapy-pipeline/scrapy-pipeline-build-image" build number [8mha:////4H4Ih8RbhJS/fyhF8/g0+hJcxXaoZedNXBjMmk6CVKI4AAAAsR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgYL/az8JP3i5KLEgkrdgsyCVKDFqdjEdJNKM3NSdDNzE9NT9Q0NLQG5n3h77QAAAA==[0m119
+originally caused by:
+ Started by user [8mha:////4BxAM9PRl3aGsZ0B/yHFcBIM7LxnXS7KuMi45KRkJW0lAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZu/dLi1CL9xJTczDwAZ3pnlMAAAAA=[0mAlex
+ERROR: Unable to find jenkins/Jenkinsfile-test from git https://github.com/alexneuman/scrapy_pipeline
+Finished: FAILURE

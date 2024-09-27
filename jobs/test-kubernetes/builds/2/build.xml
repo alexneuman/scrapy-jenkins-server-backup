@@ -1,0 +1,218 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1436.vfa_244484591f">
+  <actions>
+    <org.jenkinsci.plugins.workflow.cps.replay.ReplayFlowFactoryAction plugin="workflow-cps@3953.v19f11da_8d2fa_">
+      <replacementLoadedScripts/>
+    </org.jenkinsci.plugins.workflow.cps.replay.ReplayFlowFactoryAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+        <entry>
+          <org.jenkinsci.plugins.workflow.cps.replay.ReplayCause plugin="workflow-cps@3953.v19f11da_8d2fa_">
+            <originalNumber>1</originalNumber>
+          </org.jenkinsci.plugins.workflow.cps.replay.ReplayCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>3</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>1</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@730.ve57b_34648c63">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83">
+      <stagesUUID>00f3398f-6ecd-4b82-9633-018dc7648613</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2214.vb_b_34b_2ea_9b_83">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Main</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">echo &quot;nigger!&quot;</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>00f3398f-6ecd-4b82-9633-018dc7648613</uuid>
+          </stages>
+          <agent>
+            <variables class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTClosureMap">
+              <variables class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                    <key>yaml</key>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                    <value class="string">
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+  - name: shell
+    image: ubuntu
+    command:
+    - sleep
+    args:
+    - infinity
+    securityContext:
+      # ubuntu runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission &quot;restricted&quot;) to run as a non-root user.
+      runAsUser: 1000
+</value>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                    <key>defaultContainer</key>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                    <value class="string">shell</value>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                    <key>retries</key>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                    <value class="int">2</value>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                </entry>
+              </variables>
+            </variables>
+            <agentType>
+              <key>kubernetes</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3953.v19f11da_8d2fa_">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>545</queueId>
+  <timestamp>1727221350028</timestamp>
+  <startTime>1727221350042</startTime>
+  <result>ABORTED</result>
+  <duration>41743</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>// Uses Declarative syntax to run commands inside a container.
+pipeline {
+    agent {
+        kubernetes {
+            // Rather than inline YAML, in a multibranch Pipeline you could use: yamlFile &apos;jenkins-pod.yaml&apos;
+            // Or, to avoid YAML:
+            // containerTemplate {
+            //     name &apos;shell&apos;
+            //     image &apos;ubuntu&apos;
+            //     command &apos;sleep&apos;
+            //     args &apos;infinity&apos;
+            // }
+            yaml &apos;&apos;&apos;
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+  - name: shell
+    image: ubuntu
+    command:
+    - sleep
+    args:
+    - infinity
+    securityContext:
+      # ubuntu runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission &quot;restricted&quot;) to run as a non-root user.
+      runAsUser: 1000
+&apos;&apos;&apos;
+            // Can also wrap individual steps:
+            // container(&apos;shell&apos;) {
+            //     sh &apos;hostname&apos;
+            // }
+            defaultContainer &apos;shell&apos;
+            retries 2
+        }
+    }
+    stages {
+        stage(&apos;Main&apos;) {
+            steps {
+                sh &apos;echo &quot;nigger!&quot;&apos;
+            }
+        }
+    }
+}
+</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>261907161</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>337670482</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>483505163</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>787641089</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>45532875</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>44429625</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set"/>
+    <sandbox>true</sandbox>
+    <iota>13</iota>
+    <head>1:13</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

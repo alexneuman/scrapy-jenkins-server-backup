@@ -1,0 +1,64 @@
+Started by user [8mha:////4BxAM9PRl3aGsZ0B/yHFcBIM7LxnXS7KuMi45KRkJW0lAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZu/dLi1CL9xJTczDwAZ3pnlMAAAAA=[0mAlex
+Obtained jenkins/Jenkinsfile-build-image from git https://github.com/alexneuman/scrapy_pipeline
+[8mha:////4JqsdNzBK0LSeRaQnSCAQ2Lt6BVm0CFAXcB8/qEW5yP0AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IuLDzHBhIB4z+5FdGQpT8oIqtbml8wiQjT5ORDCh0v9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4ENilgKzKF/r2GNgUIAiAebRgXZrZKIK4xWs8TiZkW9ZAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZ+/eT83ILSktQi/dzKgkx9AAi4Re/EAAAA[0mmypi in /home/mypi/workspace/scrapy-pipeline/delete_spidercache
+[8mha:////4M0FQafv8bnoLV7sUkY0go3qpiONQWgB8G8lDU6FpTRqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NjtBr3KVEmN41x25JVio1E5V8GmSNEpOUtuYU5rGLw5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NGmsyXSHOyia86l09w6gHWutKfteiMKsnbO5UT4LqPOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CvYma5TVv2kSlOQHsedQJlQZy7zaWgS8cxuqM2LZV9qAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+Aborted by [8mha:////4BxAM9PRl3aGsZ0B/yHFcBIM7LxnXS7KuMi45KRkJW0lAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZu/dLi1CL9xJTczDwAZ3pnlMAAAAA=[0mAlex
+ERROR: Checkout failed
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:177)
+	at hudson.remoting.Channel.call(Channel.java:1041)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:285)
+Caused: hudson.remoting.RemotingSystemException
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:301)
+	at PluginClassLoader for git-client/jdk.proxy48/jdk.proxy48.$Proxy127.addCredentials(Unknown Source)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.RemoteGitImpl.addCredentials(RemoteGitImpl.java:215)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.createClient(GitSCM.java:927)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.createClient(GitSCM.java:845)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM._checkout(GitSCM.java:1299)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1277)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:101)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:88)
+	at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+ERROR: Maximum checkout retry attempts reached, aborting
+[8mha:////4KdR4iT9XpXUJP4Y3lU6SRy6/Nly27zfBvxwGEA8WtPlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4OvMlILOkPiH4XbK248af4wy/V0fwS+NTRFkAG2SLFlsAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4AH/lLafxfPpHitjJ3C4dVNcQOdx5uhrt74IX51zwg51AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIBiQ5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BhStF0r0AAAA=[0m[Pipeline] }
+[8mha:////4CE7znSm2ZW5UL00dvQ0dFbNvr8M7fF9XkwVia7/bgsKAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h+Wl0FxvQAAAA==[0m[Pipeline] // node
+[8mha:////4LSJPfdBWIkCUdcF3RtyxjeMsnTylWZqG/HROuYyr2uwAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMtI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94J8Xwqy8gPQ3eZBvQAAAA==[0m[Pipeline] End of Pipeline
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:177)
+	at hudson.remoting.Channel.call(Channel.java:1041)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:285)
+Caused: hudson.remoting.RemotingSystemException
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:301)
+	at PluginClassLoader for git-client/jdk.proxy48/jdk.proxy48.$Proxy127.addCredentials(Unknown Source)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.RemoteGitImpl.addCredentials(RemoteGitImpl.java:215)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.createClient(GitSCM.java:927)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.createClient(GitSCM.java:845)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM._checkout(GitSCM.java:1299)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1277)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:101)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:88)
+	at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 2877300d-b14c-4b20-81cb-8fdbc5296b9e
+Finished: ABORTED

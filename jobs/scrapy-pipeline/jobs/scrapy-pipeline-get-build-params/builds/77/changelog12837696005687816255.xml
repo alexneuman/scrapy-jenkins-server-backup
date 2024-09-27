@@ -1,0 +1,10 @@
+commit 4013e10f996ddafa460dbf38abf177b20dbcd17d
+tree c6cc006383238767a8f25d2950d1176a0d86ab84
+parent 537cfe5e351a15d65bf0291524c97f9ce15295ae
+author alexneuman <alexshrugged92@gmail.com> 2024-09-22 18:43:37 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-22 18:43:37 -0700
+
+    remove scrapy-job by changing name
+
+
+:100755 100755 947c43476103388ecfb9833e1ceac8a416697e57 947c43476103388ecfb9833e1ceac8a416697e57 R100	k8s/helm/templates/scrapy/scrapy-job._yaml	k8s/helm/templates/scrapy/scrapy-job.__yaml

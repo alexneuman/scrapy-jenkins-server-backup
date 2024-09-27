@@ -1,0 +1,11 @@
+commit 5b5742d18afb41d206ca5fa49c67aef4d942407a
+tree f8511538740a0b4438abc5e0e5cf81e3296fa872
+parent 5ef383f617473c430c068a51fc1796a3b220cb49
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 06:58:43 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 06:58:43 -0700
+
+    add Jenkinsfile to echo docker iamge
+
+
+:100644 100644 dfa96dae6fee7f82bca83740846a725e232e9e45 3485a919ffba3e8e0d213cc4c49c2dc1e46c3f2e M	jenkins/Jenkinsfile-build-image
+:000000 100644 0000000000000000000000000000000000000000 fa95bf0dcfc2f344208e65371323c5a193d2bc4f A	jenkins/Jenkinsfile-test

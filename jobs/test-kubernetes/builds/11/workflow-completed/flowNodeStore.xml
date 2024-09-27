@@ -1,0 +1,244 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<linked-hash-map>
+  <entry>
+    <string>2</string>
+    <Tag plugin="workflow-support@920.v59f71ce16f04">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowStartNode" plugin="workflow-api@1336.vee415d95c521">
+        <parentIds/>
+        <id>2</id>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1336.vee415d95c521">
+          <startTime>1727230991367</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>3</string>
+    <Tag plugin="workflow-support@920.v59f71ce16f04">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3953.v19f11da_8d2fa_">
+        <parentIds>
+          <string>2</string>
+        </parentIds>
+        <id>3</id>
+        <descriptorId>org.csanchez.jenkins.plugins.kubernetes.pipeline.PodTemplateStep</descriptorId>
+      </node>
+      <actions>
+        <s.a.LogStorageAction/>
+        <cps.a.ArgumentsActionImpl plugin="workflow-cps@3953.v19f11da_8d2fa_">
+          <arguments>
+            <entry>
+              <string>inheritFrom</string>
+              <string></string>
+            </entry>
+            <entry>
+              <string>yaml</string>
+              <string>
+        apiVersion: v1
+        kind: Pod
+        spec:
+          containers:
+          - name: maven
+            image: maven:alpine
+            command:
+            - cat
+            tty: true
+        </string>
+            </entry>
+          </arguments>
+          <sensitiveVariables/>
+          <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+        </cps.a.ArgumentsActionImpl>
+        <wf.a.TimingAction plugin="workflow-api@1336.vee415d95c521">
+          <startTime>1727230991559</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>4</string>
+    <Tag plugin="workflow-support@920.v59f71ce16f04">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3953.v19f11da_8d2fa_">
+        <parentIds>
+          <string>3</string>
+        </parentIds>
+        <id>4</id>
+        <descriptorId>org.csanchez.jenkins.plugins.kubernetes.pipeline.PodTemplateStep</descriptorId>
+      </node>
+      <actions>
+        <wf.a.BodyInvocationAction plugin="workflow-api@1336.vee415d95c521"/>
+        <wf.a.TimingAction plugin="workflow-api@1336.vee415d95c521">
+          <startTime>1727230991571</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>5</string>
+    <Tag plugin="workflow-support@920.v59f71ce16f04">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3953.v19f11da_8d2fa_">
+        <parentIds>
+          <string>4</string>
+        </parentIds>
+        <id>5</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.support.steps.ExecutorStep</descriptorId>
+      </node>
+      <actions>
+        <s.a.LogStorageAction/>
+        <cps.a.ArgumentsActionImpl plugin="workflow-cps@3953.v19f11da_8d2fa_">
+          <arguments>
+            <entry>
+              <string>label</string>
+              <string>test-kubernetes_11-bdvjc</string>
+            </entry>
+          </arguments>
+          <sensitiveVariables/>
+          <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+        </cps.a.ArgumentsActionImpl>
+        <wf.a.TimingAction plugin="workflow-api@1336.vee415d95c521">
+          <startTime>1727230991630</startTime>
+        </wf.a.TimingAction>
+        <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl plugin="workflow-durable-task-step@1371.vb_7cec8f3b_95e">
+          <id>589</id>
+        </org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>6</string>
+    <Tag plugin="workflow-support@920.v59f71ce16f04">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3953.v19f11da_8d2fa_">
+        <parentIds>
+          <string>5</string>
+        </parentIds>
+        <id>6</id>
+        <startId>5</startId>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1336.vee415d95c521">
+          <startTime>1727231062669</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1336.vee415d95c521">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@678.v3ee58b_469476">
+            <stackTrace>
+              <trace>PluginClassLoader for workflow-durable-task-step//org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$CancelledItemListener.onLeft(ExecutorStepExecution.java:265)</trace>
+              <trace>hudson.model.Queue$LeftItem.lambda$enter$0(Queue.java:2821)</trace>
+              <trace>jenkins.util.Listeners.lambda$notify$0(Listeners.java:59)</trace>
+              <trace>jenkins.util.Listeners.notify(Listeners.java:67)</trace>
+              <trace>hudson.model.Queue$LeftItem.enter(Queue.java:2821)</trace>
+              <trace>hudson.model.Queue$Item.cancel(Queue.java:2449)</trace>
+              <trace>hudson.model.Queue.cancel(Queue.java:747)</trace>
+              <trace>PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.PodUtils.lambda$cancelQueueItemFor$9(PodUtils.java:127)</trace>
+              <trace>java.base/java.util.Optional.ifPresentOrElse(Unknown Source)</trace>
+              <trace>PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.PodUtils.cancelQueueItemFor(PodUtils.java:121)</trace>
+              <trace>PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.PodUtils.cancelQueueItemFor(PodUtils.java:105)</trace>
+              <trace>PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper.logAndCleanUp(Reaper.java:544)</trace>
+              <trace>PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper$TerminateAgentOnContainerTerminated.onEvent(Reaper.java:467)</trace>
+              <trace>PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper$CloudPodWatcher.lambda$eventReceived$0(Reaper.java:328)</trace>
+              <trace>jenkins.util.Listeners.lambda$notify$0(Listeners.java:59)</trace>
+              <trace>jenkins.util.Listeners.notify(Listeners.java:67)</trace>
+              <trace>PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper$CloudPodWatcher.eventReceived(Reaper.java:324)</trace>
+              <trace>PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper$CloudPodWatcher.eventReceived(Reaper.java:283)</trace>
+              <trace>PluginClassLoader for kubernetes-client-api//io.fabric8.kubernetes.client.utils.internal.WatcherToggle.eventReceived(WatcherToggle.java:49)</trace>
+              <trace>PluginClassLoader for kubernetes-client-api//io.fabric8.kubernetes.client.dsl.internal.AbstractWatchManager$SerialWatcher.lambda$eventReceived$0(AbstractWatchManager.java:70)</trace>
+              <trace>PluginClassLoader for kubernetes-client-api//io.fabric8.kubernetes.client.utils.internal.SerialExecutor.lambda$execute$0(SerialExecutor.java:58)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions>
+              <wf.a.ErrorAction_-ErrorId plugin="workflow-api@1336.vee415d95c521">
+                <stackTrace/>
+                <suppressedExceptions class="empty-list"/>
+                <uuid>b0c86127-17fb-4362-89bf-d621b50719ff</uuid>
+              </wf.a.ErrorAction_-ErrorId>
+            </suppressedExceptions>
+            <result>
+              <name>ABORTED</name>
+              <ordinal>4</ordinal>
+              <color>ABORTED</color>
+              <completeBuild>false</completeBuild>
+            </result>
+            <causes class="java.util.Arrays$ArrayList">
+              <a class="jenkins.model.CauseOfInterruption-array">
+                <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueTaskCancelled plugin="workflow-durable-task-step@1371.vb_7cec8f3b_95e"/>
+              </a>
+            </causes>
+            <actualInterruption>true</actualInterruption>
+          </error>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>7</string>
+    <Tag plugin="workflow-support@920.v59f71ce16f04">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3953.v19f11da_8d2fa_">
+        <parentIds>
+          <string>6</string>
+        </parentIds>
+        <id>7</id>
+        <startId>4</startId>
+      </node>
+      <actions>
+        <wf.a.BodyInvocationAction plugin="workflow-api@1336.vee415d95c521"/>
+        <wf.a.TimingAction plugin="workflow-api@1336.vee415d95c521">
+          <startTime>1727231062698</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1336.vee415d95c521">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../../../../entry[5]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>8</string>
+    <Tag plugin="workflow-support@920.v59f71ce16f04">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3953.v19f11da_8d2fa_">
+        <parentIds>
+          <string>7</string>
+        </parentIds>
+        <id>8</id>
+        <startId>3</startId>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1336.vee415d95c521">
+          <startTime>1727231062736</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1336.vee415d95c521">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../../../../entry[5]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+        <wf.a.ErrorAction plugin="workflow-api@1336.vee415d95c521">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../../../../entry[5]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>9</string>
+    <Tag plugin="workflow-support@920.v59f71ce16f04">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@1336.vee415d95c521">
+        <parentIds>
+          <string>8</string>
+        </parentIds>
+        <id>9</id>
+        <startId>2</startId>
+        <result>
+          <name>ABORTED</name>
+          <ordinal>4</ordinal>
+          <color>ABORTED</color>
+          <completeBuild>false</completeBuild>
+        </result>
+      </node>
+      <actions>
+        <wf.a.ErrorAction plugin="workflow-api@1336.vee415d95c521">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../../../../entry[5]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+        <wf.a.TimingAction plugin="workflow-api@1336.vee415d95c521">
+          <startTime>1727231062775</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+</linked-hash-map>

@@ -9,8 +9,6 @@
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="com.michelin.cio.hudson.plugins.rolestrategy.RoleBasedAuthorizationStrategy">
     <permissionTemplates/>
-    <roleMap type="slaveRoles"/>
-    <roleMap type="projectRoles"/>
     <roleMap type="globalRoles">
       <role name="admin" pattern=".*">
         <permissions>
@@ -29,6 +27,8 @@
         </assignedSIDs>
       </role>
     </roleMap>
+    <roleMap type="slaveRoles"/>
+    <roleMap type="projectRoles"/>
   </authorizationStrategy>
   <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
     <disableSignup>true</disableSignup>
@@ -42,7 +42,37 @@
   <jdks/>
   <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
-  <clouds/>
+  <clouds>
+    <org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud plugin="kubernetes@4285.v50ed5f624918">
+      <name>kubernetes</name>
+      <templates/>
+      <serverUrl>https://192.168.50.91:58350</serverUrl>
+      <useJenkinsProxy>false</useJenkinsProxy>
+      <skipTlsVerify>true</skipTlsVerify>
+      <addMasterProxyEnvVars>false</addMasterProxyEnvVars>
+      <capOnlyOnAlivePods>false</capOnlyOnAlivePods>
+      <namespace>jenkins</namespace>
+      <restrictedPssSecurityContext>false</restrictedPssSecurityContext>
+      <webSocket>false</webSocket>
+      <directConnection>false</directConnection>
+      <jenkinsUrl>http://jenkins-master.jenkins.svc.cluster.local:8080</jenkinsUrl>
+      <credentialsId>jenkins-kind</credentialsId>
+      <containerCap>10</containerCap>
+      <retentionTimeout>5</retentionTimeout>
+      <connectTimeout>5</connectTimeout>
+      <readTimeout>15</readTimeout>
+      <podLabels>
+        <org.csanchez.jenkins.plugins.kubernetes.PodLabel>
+          <key>jenkins</key>
+          <value>slave</value>
+        </org.csanchez.jenkins.plugins.kubernetes.PodLabel>
+      </podLabels>
+      <usageRestricted>false</usageRestricted>
+      <maxRequestsPerHost>32</maxRequestsPerHost>
+      <waitForPodSec>600</waitForPodSec>
+      <podRetention class="org.csanchez.jenkins.plugins.kubernetes.pod.retention.Never"/>
+    </org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud>
+  </clouds>
   <quietPeriod>5</quietPeriod>
   <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
   <views>
@@ -55,7 +85,7 @@
     </hudson.model.AllView>
   </views>
   <primaryView>all</primaryView>
-  <slaveAgentPort>50000</slaveAgentPort>
+  <slaveAgentPort>0</slaveAgentPort>
   <label></label>
   <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
     <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>

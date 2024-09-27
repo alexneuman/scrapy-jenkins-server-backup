@@ -1,0 +1,10 @@
+commit eb066b69de803ad802a83237c38c98ba4793fcfa
+tree 1c69bc308945f45f037689b34586c71b0877eaf7
+parent d40cb01b12bfe24f7b52ea46ec76c296df7c7d2a
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 09:22:09 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 09:22:09 -0700
+
+    edit Jenkinsfile-get-build-parameters
+
+
+:100644 100644 73896365c8c381de401f046398fd3fe01c3675a2 f2b74d40f1821348ddb1da5b68d3e22b95a52094 M	jenkins/Jenkinsfile-get-build-params

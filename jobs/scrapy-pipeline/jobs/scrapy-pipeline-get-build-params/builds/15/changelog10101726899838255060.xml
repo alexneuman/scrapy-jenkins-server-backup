@@ -1,0 +1,11 @@
+commit d40cb01b12bfe24f7b52ea46ec76c296df7c7d2a
+tree 8e3ed71d5d62e3610518bf8adab9b4e095923377
+parent 5b5742d18afb41d206ca5fa49c67aef4d942407a
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 08:53:17 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 08:53:17 -0700
+
+    rename params step
+
+
+:100644 100644 3485a919ffba3e8e0d213cc4c49c2dc1e46c3f2e 9a8493bbfc9a743d87627d9c48f6995779b48944 M	jenkins/Jenkinsfile-build-image
+:100644 100644 fa95bf0dcfc2f344208e65371323c5a193d2bc4f 73896365c8c381de401f046398fd3fe01c3675a2 R067	jenkins/Jenkinsfile-test	jenkins/Jenkinsfile-get-build-params

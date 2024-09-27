@@ -1,0 +1,53 @@
+commit c2ac53514b1802222a6e521fca02c40e351e6547
+tree d29b3955fbe56b403262e5fa212fa46de91706a8
+parent 5a3384dedf194490268200f87ad56507f7da8d2d
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 18:22:35 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 18:22:35 -0700
+
+    enable redis by default
+
+
+:100644 100644 3cc53a058b1c56c0290a4bfe4715c737e6d615a9 4a408785d32e5cf540315462d93beb12bd268a52 M	generic/generic/settings_override_critical.py
+commit 5a3384dedf194490268200f87ad56507f7da8d2d
+tree 4476c607488694ef46f9021f106abfc6b83954f8
+parent 20b79e4070c760b78131d9dcc68743613be3d5e5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 17:20:42 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 17:20:42 -0700
+
+    turn on redis by default when deployed
+
+
+:100755 100755 93d005573e9e4e2d495f783220bc78c4af6ae6ed 2754fbaa64685357b1fad96775e2c7cc9338b159 M	generic/generic/settings.py
+:100644 100644 f4a9346503ca14bfd36b711ff04dd67128f8fa5e 3cc53a058b1c56c0290a4bfe4715c737e6d615a9 M	generic/generic/settings_override_critical.py
+:000000 100644 0000000000000000000000000000000000000000 5d3c65af4f27a14d2f7d0efd971a7906f371c143 A	k8s/helm/templates/ingress/ingress.yaml
+:100755 100755 947c43476103388ecfb9833e1ceac8a416697e57 947c43476103388ecfb9833e1ceac8a416697e57 R100	k8s/helm/templates/scrapy/scrapy-job.yaml	k8s/helm/templates/scrapy/scrapy-job._yaml
+commit 20b79e4070c760b78131d9dcc68743613be3d5e5
+tree 415917166ac53e8464b442183545920e75ef5741
+parent 143278615386560d462ead1a9a813c263ea3d7c6
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 10:00:24 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 10:00:24 -0700
+
+    add SPIDER_VERSION to Jenkins-build-image
+
+
+:100644 100644 e2a163ecc989d53f953484c2c08f4c879d347ce9 019216310b29b192953b8519031663e323f1b3ae M	jenkins/Jenkinsfile-build-image
+commit 143278615386560d462ead1a9a813c263ea3d7c6
+tree 50a59f57cdc80cec9e25d06540b5b184ca5cea3e
+parent eb066b69de803ad802a83237c38c98ba4793fcfa
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 09:57:27 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 09:57:27 -0700
+
+    refactor build image to use external repo for id
+
+
+:100644 100644 9a8493bbfc9a743d87627d9c48f6995779b48944 e2a163ecc989d53f953484c2c08f4c879d347ce9 M	jenkins/Jenkinsfile-build-image
+commit eb066b69de803ad802a83237c38c98ba4793fcfa
+tree 1c69bc308945f45f037689b34586c71b0877eaf7
+parent d40cb01b12bfe24f7b52ea46ec76c296df7c7d2a
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 09:22:09 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 09:22:09 -0700
+
+    edit Jenkinsfile-get-build-parameters
+
+
+:100644 100644 73896365c8c381de401f046398fd3fe01c3675a2 f2b74d40f1821348ddb1da5b68d3e22b95a52094 M	jenkins/Jenkinsfile-get-build-params

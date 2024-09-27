@@ -1,0 +1,59 @@
+Started by user [8mha:////4BxAM9PRl3aGsZ0B/yHFcBIM7LxnXS7KuMi45KRkJW0lAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZu/dLi1CL9xJTczDwAZ3pnlMAAAAA=[0mAlex
+Replayed [8mha:////4EcDhZISJ1kykolVCWdcLbaGoYiWrD0TQVSHt26IQ4JOAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZx/az8JP2S1OIS3ezSpNSivFQgW99UHwDh/nTTzAAAAA==[0m#5
+[8mha:////4JqsdNzBK0LSeRaQnSCAQ2Lt6BVm0CFAXcB8/qEW5yP0AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IuLDzHBhIB4z+5FdGQpT8oIqtbml8wiQjT5ORDCh0v9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4M0FQafv8bnoLV7sUkY0go3qpiONQWgB8G8lDU6FpTRqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NjtBr3KVEmN41x25JVio1E5V8GmSNEpOUtuYU5rGLw5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] retry
+[8mha:////4NGmsyXSHOyia86l09w6gHWutKfteiMKsnbO5UT4LqPOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4BIIYbp1PTvpVLBh8Ei8K0THRZJnFgTEJ6lMZOO3pgP6AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/test-kubernetes-6-cb750-zhr1n-h12qm
+jenkins/test-kubernetes-6-cb750-zhr1n-h12qm Container bob-container was terminated.
+
+- bob-container -- terminated (0)
+-----Logs-------------
+
+
+
+- jnlp -- running
+-----Logs-------------
+
+[8mha:////4KXk0SwsbJyYsJf8Hntmm/LNz8mGXLgnBxva/sdR94FxAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/QfVs29dvAAAAA==[0m[Pipeline] // node
+[8mha:////4I067R+susZLcZGWuRXfadLoiN7jcPpUe5d/lU9pX67OAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+Could not find a node block associated with node (source of error) but inside podTemplate
+Queue task was cancelled
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 11ce0620-630a-4299-98fc-5cfa914b4d30
+Retrying
+[8mha:////4ChxqaDAmVFwPdsdeC+xXaKWx9c3nYzp5KgYFDDkRN+GAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDBRWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INdjukkMEAAAA=[0m[Pipeline] {
+[8mha:////4LUWLIZyier/XlX5N9tpDoSTaGT99nyYVOulvgQsZer2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/test-kubernetes-6-cb750-zhr1n-tdpvw
+jenkins/test-kubernetes-6-cb750-zhr1n-tdpvw Container bob-container was terminated.
+
+- bob-container -- terminated (0)
+-----Logs-------------
+
+
+
+- jnlp -- running
+-----Logs-------------
+Exception in thread "main" java.nio.file.FileSystemException: /home/jenkins/agent/remoting: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.createDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createAndCheckIsDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createDirectories(Unknown Source)
+	at org.jenkinsci.remoting.engine.WorkDirManager.initializeWorkDir(WorkDirManager.java:213)
+	at hudson.remoting.Launcher.initialize(Launcher.java:508)
+	at hudson.remoting.Launcher.run(Launcher.java:485)
+	at hudson.remoting.Launcher.main(Launcher.java:455)
+
+[8mha:////4DRdq4uPi1eJoVtT+R1NucPcJSNKoXUeWM4PKMWAxiD8AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7H2Cut1/qn0DJDYlLL4AAAA=[0m[Pipeline] // node
+[8mha:////4JqHLHx/FOtrJqWJY3PMurtVOw7RRlT+jnTohXE7W7TSAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fF9V+kL4AAAA=[0m[Pipeline] }
+[8mha:////4M+ucoV1lKfDixsXZtGYLQaex2iDn2bUSs2Mm7HkxPCfAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP073CUL0AAAA=[0m[Pipeline] // retry
+[8mha:////4FK3TilqhZBD0jx6o/q0FSxA2Y/uOCl0tQnt/oI2C+EqAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4HuU1qHlcBSGP27AqFcrWopHHoVHr6yXUd0IFllJDpetAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // podTemplate
+[8mha:////4JKgbv9BdN5pX3DpDH5TQByLGAZ9VkWr7oOWztZHNW4pAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+Queue task was cancelled
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 1e70ce75-c5e0-41c7-895b-3f42feb47592
+Finished: ABORTED

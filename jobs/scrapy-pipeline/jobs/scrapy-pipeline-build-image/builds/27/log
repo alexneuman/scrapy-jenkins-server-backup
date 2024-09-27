@@ -1,0 +1,408 @@
+Started by user [8mha:////4BxAM9PRl3aGsZ0B/yHFcBIM7LxnXS7KuMi45KRkJW0lAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZu/dLi1CL9xJTczDwAZ3pnlMAAAAA=[0mAlex
+Obtained jenkins/Jenkinsfile-build-image from git https://github.com/alexneuman/scrapy_pipeline
+[8mha:////4JqsdNzBK0LSeRaQnSCAQ2Lt6BVm0CFAXcB8/qEW5yP0AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IuLDzHBhIB4z+5FdGQpT8oIqtbml8wiQjT5ORDCh0v9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4ENilgKzKF/r2GNgUIAiAebRgXZrZKIK4xWs8TiZkW9ZAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZ+/eT83ILSktQi/dzKgkx9AAi4Re/EAAAA[0mmypi in /home/mypi/workspace/scrapy-pipeline/scrapy-pipeline-build-image
+[8mha:////4M0FQafv8bnoLV7sUkY0go3qpiONQWgB8G8lDU6FpTRqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NjtBr3KVEmN41x25JVio1E5V8GmSNEpOUtuYU5rGLw5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NGmsyXSHOyia86l09w6gHWutKfteiMKsnbO5UT4LqPOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CvYma5TVv2kSlOQHsedQJlQZy7zaWgS8cxuqM2LZV9qAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+using credential github-credentials
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/mypi/workspace/scrapy-pipeline/scrapy-pipeline-build-image/.git # timeout=10
+ > git config remote.origin.url https://github.com/alexneuman/scrapy_pipeline # timeout=10
+Fetching upstream changes from https://github.com/alexneuman/scrapy_pipeline
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/alexneuman/scrapy_pipeline +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 5ef383f617473c430c068a51fc1796a3b220cb49 (refs/remotes/origin/dev)
+Commit message: "add param PLAYWRIGHT_ENABLED to build stage"
+First time build. Skipping changelog.
+[8mha:////4KdR4iT9XpXUJP4Y3lU6SRy6/Nly27zfBvxwGEA8WtPlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4OvMlILOkPiH4XbK248af4wy/V0fwS+NTRFkAG2SLFlsAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4J7fW7roPwzz2DUTfyaHgdG0a9hhV4guOdVOmtkG09aYAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4LUWLIZyier/XlX5N9tpDoSTaGT99nyYVOulvgQsZer2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4OuutfnJRfDnWtIcESyum0EuhL3jRYNgDjztE7HuSa/UAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4KopL4pGuR8hBczhXoXX9/MPuEXlnjjBNqlCy8+7enwLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4AM+8QSkqSgTS/VcDrhjEsF4IPcQD6E2Z7ZPfBeM5Jy4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4BKyJYW8vqEI/kkgfI7xuZKE4i6uF3/n53X+lbmCTy6uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Prepare environment)
+[8mha:////4OyN34SGhuddumzws1Clk4+p9pommBTm89bU9a25Itz6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] script
+[8mha:////4Lh93S4Yj9inbh2fOyQQ+202zGo94Dm2FyL5YvW6qPHBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4FKDWDa78o0eqoomYuAQD1bowBlDibLah8uCbATeZuUxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
+ > git rev-parse refs/remotes/origin/dev^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5ef383f617473c430c068a51fc1796a3b220cb49 # timeout=10
++ git rev-parse --short HEAD
+[8mha:////4EDSkOL5kFqPk88Vs9/I4+oLFVtoYeun+Z5yOlhzQ5mXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4NCtwFJKzQhwyiOPF3r5kQIS5UBHyde/uObE10EZzSakAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // script
+[8mha:////4Cr+dGMUwhoO1aqEak6AiEL+wAjK4QIuSRMuJsx5YjyaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIFEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEOmjScvgAAAA==[0m[Pipeline] }
+[8mha:////4ItVPuZKabcFAdNzH/WQDStXIS+60VnJKcHQGBJMS0vBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRER2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPjbYp22+AAAA[0m[Pipeline] // stage
+[8mha:////4OsWfjDz93zaDXIyWQdHN3kwIIHca6Ni5qM0O9aAD1e3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU0BExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLXZNs3n2f1BpZ8cjnCAAAA[0m[Pipeline] stage
+[8mha:////4PrwZEn+wL85oTgtU5NBELQ8YtWYQB9uZiUc0PpeWsg/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (Pull Repo)
+[8mha:////4A/uPFF+2EpEGxf/G33gE7NKdu5k67ppxzaIIgsLR06sAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ rm -rf repo
+[8mha:////4LsH5JpgIAlHW0q1Ti28HMTYNPATGAmZVIEkalXgCvIFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAG8UfaPvgAAAA==[0m[Pipeline] sh
++ mkdir repo
+[8mha:////4Edn95SqIeimpKh1VIIIu7KPZ8EHMpmZ6EnqxETPvEAAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQkgMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gPz+Ub8wgAAAA==[0m[Pipeline] dir
+Running in /home/mypi/workspace/scrapy-pipeline/scrapy-pipeline-build-image/repo
+[8mha:////4MTt3o/MPvQ7Lb0bk4QKohAai9VCWBicKAfIc3JjT7/xAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] {
+[8mha:////4JqRQFSrn8Zs5n6Obd1EDn+cd+v45+jVC8c2fuKeX3oiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] checkout
+The recommended git tool is: git
+using credential github-credentials
+Cloning the remote Git repository
+Cloning repository https://github.com/alexneuman/scrapy_pipeline
+ > git init /home/mypi/workspace/scrapy-pipeline/scrapy-pipeline-build-image/repo # timeout=10
+Fetching upstream changes from https://github.com/alexneuman/scrapy_pipeline
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/alexneuman/scrapy_pipeline +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 7cb189062bc6a2246414b32faa18a49cc3a11dfe (refs/remotes/origin/master)
+Commit message: "remove hard coded value"
+ > git config remote.origin.url https://github.com/alexneuman/scrapy_pipeline # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7cb189062bc6a2246414b32faa18a49cc3a11dfe # timeout=10
+ > git rev-list --no-walk 7cb189062bc6a2246414b32faa18a49cc3a11dfe # timeout=10
+[8mha:////4F5HfNcNIqAKLMEugwYQle8g8pMY34t4Ev9D7hX6GVRCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
+[8mha:////4C/KiJb/HBVYbU4Yt+GtDWojvrYaj0cSd8chDtInQdYMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // dir
+[8mha:////4GokVIbJYcNxzM+fAY/IjsvkabauO6ta4ePHUmG7OANLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPkGA/eC+AAAA[0m[Pipeline] }
+[8mha:////4DgdXZ2HQ2a4XdDLt+VPU3x7/tsSX5ZwTKsWgNJgscIIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSImoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79AEfGxbW+AAAA[0m[Pipeline] // stage
+[8mha:////4JBm7c0n8QrqPqqbbXtD7cpCbjl2XzrLJ2qTLEX9Mp3sAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqGyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7Jluz/zyrN5pHAILCAAAA[0m[Pipeline] stage
+[8mha:////4A4ZrkJDvIrgxqbasEw4O08ODhjLPBekyCLNprgRAJE2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] { (Change settings into override, move repo settings into build)
+[8mha:////4A5ULi9NCPzVrz14ilt3shYlAhk8LexCeukjAYN85cPiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] sh
++ mv generic/generic/settings.py generic/generic/settings_override.py
+[8mha:////4BbQuK0ZnCBMKJ/WesCWqblaEcz+86KwNGi4NL3wkGgkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHgAfL9vgAAAA==[0m[Pipeline] sh
++ find ./repo -name settings.py -exec cp {} ./generic/generic/settings.py ;
+[8mha:////4Jr1xHS7glMl84pyhZQZxRZmx3W8P86WOrA928tEnuihAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q0vHWp6vgAAAA==[0m[Pipeline] sh
++ ./settings_override.sh
+[8mha:////4AcQ3piEiPxX0MysdJ/h2NeMHqVCCMvt1xQLOdwP0QevAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFuLHFjvgAAAA==[0m[Pipeline] sh
++ find ./repo -name middlewares.py -exec cat {} ;
+[8mha:////4EU/iC034hL+8TLQbLAzz1/0O7/5ZvjDkI4fjafQVQC5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AETHo4GvgAAAA==[0m[Pipeline] }
+[8mha:////4CmcVSwTDe+LTTqg73jEGQgoW5ufXQngof4UDV6C6y9bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPyD91bq+AAAA[0m[Pipeline] // stage
+[8mha:////4Dk0PBcTHcXfxIPjcQIIkT6AwU2FMeLI6Zv9stkXbQ1PAAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycohU/GyoE2vUhROEJoSk0XslSUknTsTVuAOBSkx4sGxL1vd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3u2z77edZvQEJmv6RwgAAAA==[0m[Pipeline] stage
+[8mha:////4P8YdbQOhKwTgKeWg+LiHTFO+79pOGp9Qfs+Xxy7eEKNAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Copy Spiders into build)
+[8mha:////4N2ezBWMKKzR8+JsWr6jP5YQIOgCmEdMvgwlzQGXjhXiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] script
+[8mha:////4J/zdlhKCcywY2STtkrQrN4IsYO9MtP55wVwDLKfauVxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] {
+[8mha:////4C+TMRqiWnrwq4QFxcOgm3dhdXj6LUaag6Gz3lxKMsQDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBj0vY+u+AAAA[0m[Pipeline] sh
++ find ./repo -type f -path */spiders/*.py -exec cp {} ./generic/generic/spiders/ ;
+[8mha:////4MCl/5gonOiH8cpP1bzdcaMYbFO4WbCFio8763xOdQDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N2y4ylS+AAAA[0m[Pipeline] }
+[8mha:////4EzRO3tS7hznG8MfJmfd4goR8exXzsw+CKfzhlaF+1DDAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSpHDGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DS86m9K+AAAA[0m[Pipeline] // script
+[8mha:////4EhUPs2dFIAya89zvuogA2MnYftK56AI4vIogzSDNNrrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNyl8o4e+AAAA[0m[Pipeline] }
+[8mha:////4Jio1SSkxnYHO0xVn3ZJ7P1exJLMVnAO1FizM+1c5wZFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wHDFtxxvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Gfcivoehc3SfHUojg5zRzSWPD3F8JZeRj0sYnNG8h6AAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsdtn2zedZvQET4x2xwgAAAA==[0m[Pipeline] stage
+[8mha:////4IpEh4q03DOZjnEhE9U2YKOLmThsy+D0nbjwblGv+LHqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] { (Docker Build)
+[8mha:////4PVGdkeMybf31gj+VsEcsHjAYaopspaFiGki9tXSxHpGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] script
+[8mha:////4I4vxia4RNK6IHMUJ+M1X6sD2qCHxar/SIuqCLOLELXPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] {
+[8mha:////4JdDc/S/x6/bkh4m13jPRLvpy2rywkQlrXDI1YzFihJYAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] sh
++ docker build -t alexshrugged92/apple_jobs:5ef383f --build-arg PLAYWRIGHT_ENABLED=false --build-arg PLAYWRIGHT_HEADLESS=false --build-arg PLAYWRIGHT_BROWSER=chromium --build-arg SPIDER_NAME=apple_jobs .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.32kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 1.5s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 60B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 165.16kB 0.1s done
+#4 DONE 0.1s
+
+#5 [1/7] FROM docker.io/library/python:3.12-slim@sha256:15bad989b293be1dd5eb26a87ecacadaee1559f98e29f02bf6d00c8d86129f39
+#5 resolve docker.io/library/python:3.12-slim@sha256:15bad989b293be1dd5eb26a87ecacadaee1559f98e29f02bf6d00c8d86129f39 0.1s done
+#5 sha256:15bad989b293be1dd5eb26a87ecacadaee1559f98e29f02bf6d00c8d86129f39 9.12kB / 9.12kB done
+#5 sha256:c0c2008864355f2263dcc690b1190540315bdd179dfbb0fae6ee58b174da4041 1.75kB / 1.75kB done
+#5 sha256:c0cb1ac1ea30eef3bedf58895ed0abf74baac5411ea0ed177645ff5a1c0a00c8 5.11kB / 5.11kB done
+#5 sha256:89790d4ca55c29720fc29c489ba4403f3bb6baa1a6d8b5d0e96c3d40521408c0 0B / 3.33MB 0.2s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 0B / 13.38MB 0.2s
+#5 sha256:d0064bc0306142e6a6d14484b7dd5bf254ca408cdc077107137de12131542ad7 0B / 250B 0.4s
+#5 sha256:89790d4ca55c29720fc29c489ba4403f3bb6baa1a6d8b5d0e96c3d40521408c0 1.05MB / 3.33MB 0.6s
+#5 sha256:89790d4ca55c29720fc29c489ba4403f3bb6baa1a6d8b5d0e96c3d40521408c0 2.10MB / 3.33MB 0.8s
+#5 sha256:d0064bc0306142e6a6d14484b7dd5bf254ca408cdc077107137de12131542ad7 250B / 250B 0.7s done
+#5 sha256:89790d4ca55c29720fc29c489ba4403f3bb6baa1a6d8b5d0e96c3d40521408c0 3.33MB / 3.33MB 1.0s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 1.05MB / 13.38MB 1.0s
+#5 sha256:89790d4ca55c29720fc29c489ba4403f3bb6baa1a6d8b5d0e96c3d40521408c0 3.33MB / 3.33MB 1.0s done
+#5 extracting sha256:89790d4ca55c29720fc29c489ba4403f3bb6baa1a6d8b5d0e96c3d40521408c0
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 2.10MB / 13.38MB 1.2s
+#5 extracting sha256:89790d4ca55c29720fc29c489ba4403f3bb6baa1a6d8b5d0e96c3d40521408c0 0.2s done
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 3.15MB / 13.38MB 1.4s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 4.19MB / 13.38MB 1.5s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 5.24MB / 13.38MB 1.6s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 7.34MB / 13.38MB 1.9s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 8.39MB / 13.38MB 2.1s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 9.44MB / 13.38MB 2.2s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 10.49MB / 13.38MB 2.4s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 11.53MB / 13.38MB 2.6s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 12.58MB / 13.38MB 2.7s
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 13.38MB / 13.38MB 2.9s
+#5 extracting sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791
+#5 sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 13.38MB / 13.38MB 3.1s done
+#5 extracting sha256:6371464c838295bcef75d649be7147db0604ea1a89efaa1a8b037c08d3a27791 0.6s done
+#5 extracting sha256:d0064bc0306142e6a6d14484b7dd5bf254ca408cdc077107137de12131542ad7
+#5 extracting sha256:d0064bc0306142e6a6d14484b7dd5bf254ca408cdc077107137de12131542ad7 done
+#5 DONE 4.3s
+
+#6 [2/7] WORKDIR /generic
+#6 DONE 77.5s
+
+#7 [3/7] COPY requirements.txt /generic/
+#7 DONE 5.0s
+
+#8 [4/7] COPY entrypoint.sh entrypoint.sh
+#8 DONE 4.3s
+
+#9 [5/7] RUN pip install -r requirements.txt
+#9 2.952 Collecting numpy==1.26.1 (from -r requirements.txt (line 1))
+#9 3.194   Downloading numpy-1.26.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (62 kB)
+#9 3.543 Collecting openpyxl==3.1.2 (from -r requirements.txt (line 2))
+#9 3.562   Downloading openpyxl-3.1.2-py2.py3-none-any.whl.metadata (2.5 kB)
+#9 3.935 Collecting scrapy-playwright==0.0.41 (from -r requirements.txt (line 3))
+#9 3.954   Downloading scrapy_playwright-0.0.41-py3-none-any.whl.metadata (42 kB)
+#9 4.317 Collecting playwright-stealth==1.0.6 (from -r requirements.txt (line 4))
+#9 4.335   Downloading playwright_stealth-1.0.6-py3-none-any.whl.metadata (2.2 kB)
+#9 4.640 Collecting redis==5.0.1 (from -r requirements.txt (line 5))
+#9 4.662   Downloading redis-5.0.1-py3-none-any.whl.metadata (8.9 kB)
+#9 4.958 Collecting Scrapy==2.11.0 (from -r requirements.txt (line 6))
+#9 4.975   Downloading Scrapy-2.11.0-py2.py3-none-any.whl.metadata (5.2 kB)
+#9 5.341 Collecting scrapy-redis==0.9.1 (from -r requirements.txt (line 7))
+#9 5.362   Downloading scrapy_redis-0.9.1-py2.py3-none-any.whl.metadata (8.4 kB)
+#9 5.811 Collecting requests (from -r requirements.txt (line 8))
+#9 5.830   Downloading requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+#9 6.116 Collecting et-xmlfile (from openpyxl==3.1.2->-r requirements.txt (line 2))
+#9 6.132   Downloading et_xmlfile-1.1.0-py3-none-any.whl.metadata (1.8 kB)
+#9 6.449 Collecting playwright>=1.15 (from scrapy-playwright==0.0.41->-r requirements.txt (line 3))
+#9 6.469   Downloading playwright-1.47.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (3.5 kB)
+#9 6.810 Collecting Twisted<23.8.0,>=18.9.0 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 6.833   Downloading Twisted-22.10.0-py3-none-any.whl.metadata (15 kB)
+#9 7.433 Collecting cryptography>=36.0.0 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 7.450   Downloading cryptography-43.0.1-cp39-abi3-manylinux_2_28_aarch64.whl.metadata (5.4 kB)
+#9 7.729 Collecting cssselect>=0.9.1 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 7.749   Downloading cssselect-1.2.0-py2.py3-none-any.whl.metadata (2.2 kB)
+#9 7.957 Collecting itemloaders>=1.0.1 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 7.977   Downloading itemloaders-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+#9 8.249 Collecting parsel>=1.5.0 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 8.265   Downloading parsel-1.9.1-py2.py3-none-any.whl.metadata (11 kB)
+#9 8.567 Collecting pyOpenSSL>=21.0.0 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 8.582   Downloading pyOpenSSL-24.2.1-py3-none-any.whl.metadata (13 kB)
+#9 8.879 Collecting queuelib>=1.4.2 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 8.904   Downloading queuelib-1.7.0-py2.py3-none-any.whl.metadata (5.7 kB)
+#9 9.195 Collecting service-identity>=18.1.0 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 9.213   Downloading service_identity-24.1.0-py3-none-any.whl.metadata (4.8 kB)
+#9 9.529 Collecting w3lib>=1.17.0 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 9.553   Downloading w3lib-2.2.1-py3-none-any.whl.metadata (2.1 kB)
+#9 9.968 Collecting zope.interface>=5.1.0 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 9.989   Downloading zope.interface-7.0.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (43 kB)
+#9 10.27 Collecting protego>=0.1.15 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 10.29   Downloading Protego-0.3.1-py2.py3-none-any.whl.metadata (5.9 kB)
+#9 10.64 Collecting itemadapter>=0.1.0 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 10.66   Downloading itemadapter-0.9.0-py3-none-any.whl.metadata (17 kB)
+#9 11.13 Collecting setuptools (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 11.15   Downloading setuptools-75.1.0-py3-none-any.whl.metadata (6.9 kB)
+#9 11.46 Collecting packaging (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 11.48   Downloading packaging-24.1-py3-none-any.whl.metadata (3.2 kB)
+#9 11.77 Collecting tldextract (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 11.79   Downloading tldextract-5.1.2-py3-none-any.whl.metadata (11 kB)
+#9 12.37 Collecting lxml>=4.4.1 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 12.38   Downloading lxml-5.3.0-cp312-cp312-manylinux_2_28_aarch64.whl.metadata (3.8 kB)
+#9 12.66 Collecting PyDispatcher>=2.0.5 (from Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 12.69   Downloading PyDispatcher-2.0.7-py3-none-any.whl.metadata (2.4 kB)
+#9 12.99 Collecting six>=1.15 (from scrapy-redis==0.9.1->-r requirements.txt (line 7))
+#9 13.01   Downloading six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+#9 13.42 Collecting charset-normalizer<4,>=2 (from requests->-r requirements.txt (line 8))
+#9 13.45   Downloading charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (33 kB)
+#9 13.76 Collecting idna<4,>=2.5 (from requests->-r requirements.txt (line 8))
+#9 13.78   Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+#9 14.12 Collecting urllib3<3,>=1.21.1 (from requests->-r requirements.txt (line 8))
+#9 14.14   Downloading urllib3-2.2.3-py3-none-any.whl.metadata (6.5 kB)
+#9 16.01 Collecting certifi>=2017.4.17 (from requests->-r requirements.txt (line 8))
+#9 16.02   Downloading certifi-2024.8.30-py3-none-any.whl.metadata (2.2 kB)
+#9 16.45 Collecting cffi>=1.12 (from cryptography>=36.0.0->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 16.47   Downloading cffi-1.17.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (1.5 kB)
+#9 16.74 Collecting jmespath>=0.9.5 (from itemloaders>=1.0.1->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 16.76   Downloading jmespath-1.0.1-py3-none-any.whl.metadata (7.6 kB)
+#9 17.24 Collecting greenlet==3.0.3 (from playwright>=1.15->scrapy-playwright==0.0.41->-r requirements.txt (line 3))
+#9 17.27   Downloading greenlet-3.0.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (3.8 kB)
+#9 17.55 Collecting pyee==12.0.0 (from playwright>=1.15->scrapy-playwright==0.0.41->-r requirements.txt (line 3))
+#9 17.57   Downloading pyee-12.0.0-py3-none-any.whl.metadata (2.8 kB)
+#9 17.86 Collecting typing-extensions (from pyee==12.0.0->playwright>=1.15->scrapy-playwright==0.0.41->-r requirements.txt (line 3))
+#9 17.88   Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+#9 18.20 Collecting attrs>=19.1.0 (from service-identity>=18.1.0->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 18.21   Downloading attrs-24.2.0-py3-none-any.whl.metadata (11 kB)
+#9 18.51 Collecting pyasn1 (from service-identity>=18.1.0->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 18.52   Downloading pyasn1-0.6.1-py3-none-any.whl.metadata (8.4 kB)
+#9 18.84 Collecting pyasn1-modules (from service-identity>=18.1.0->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 18.86   Downloading pyasn1_modules-0.4.1-py3-none-any.whl.metadata (3.5 kB)
+#9 19.15 Collecting constantly>=15.1 (from Twisted<23.8.0,>=18.9.0->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 19.17   Downloading constantly-23.10.4-py3-none-any.whl.metadata (1.8 kB)
+#9 19.48 Collecting incremental>=21.3.0 (from Twisted<23.8.0,>=18.9.0->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 19.50   Downloading incremental-24.7.2-py3-none-any.whl.metadata (8.1 kB)
+#9 19.82 Collecting Automat>=0.8.0 (from Twisted<23.8.0,>=18.9.0->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 19.84   Downloading Automat-24.8.1-py3-none-any.whl.metadata (8.4 kB)
+#9 20.08 Collecting hyperlink>=17.1.1 (from Twisted<23.8.0,>=18.9.0->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 20.10   Downloading hyperlink-21.0.0-py2.py3-none-any.whl.metadata (1.5 kB)
+#9 20.42 Collecting requests-file>=1.4 (from tldextract->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 20.44   Downloading requests_file-2.1.0-py2.py3-none-any.whl.metadata (1.7 kB)
+#9 20.71 Collecting filelock>=3.0.8 (from tldextract->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 20.73   Downloading filelock-3.16.1-py3-none-any.whl.metadata (2.9 kB)
+#9 21.09 Collecting pycparser (from cffi>=1.12->cryptography>=36.0.0->Scrapy==2.11.0->-r requirements.txt (line 6))
+#9 21.12   Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+#9 21.36 Downloading numpy-1.26.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (13.9 MB)
+#9 24.06    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.9/13.9 MB 5.2 MB/s eta 0:00:00
+#9 24.08 Downloading openpyxl-3.1.2-py2.py3-none-any.whl (249 kB)
+#9 24.25 Downloading scrapy_playwright-0.0.41-py3-none-any.whl (26 kB)
+#9 24.37 Downloading playwright_stealth-1.0.6-py3-none-any.whl (28 kB)
+#9 24.51 Downloading redis-5.0.1-py3-none-any.whl (250 kB)
+#9 24.68 Downloading Scrapy-2.11.0-py2.py3-none-any.whl (286 kB)
+#9 24.88 Downloading scrapy_redis-0.9.1-py2.py3-none-any.whl (18 kB)
+#9 25.01 Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+#9 25.15 Downloading certifi-2024.8.30-py3-none-any.whl (167 kB)
+#9 25.31 Downloading charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (137 kB)
+#9 25.46 Downloading cryptography-43.0.1-cp39-abi3-manylinux_2_28_aarch64.whl (3.8 MB)
+#9 26.24    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 4.8 MB/s eta 0:00:00
+#9 26.25 Downloading cssselect-1.2.0-py2.py3-none-any.whl (18 kB)
+#9 26.37 Downloading idna-3.10-py3-none-any.whl (70 kB)
+#9 26.50 Downloading itemadapter-0.9.0-py3-none-any.whl (11 kB)
+#9 26.66 Downloading itemloaders-1.3.1-py3-none-any.whl (12 kB)
+#9 26.80 Downloading lxml-5.3.0-cp312-cp312-manylinux_2_28_aarch64.whl (4.7 MB)
+#9 27.75    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 4.9 MB/s eta 0:00:00
+#9 27.78 Downloading parsel-1.9.1-py2.py3-none-any.whl (17 kB)
+#9 27.90 Downloading playwright-1.47.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (37.8 MB)
+#9 73.71    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.8/37.8 MB ? eta 0:00:00
+#9 73.73 Downloading greenlet-3.0.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (660 kB)
+#9 84.91    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 660.5/660.5 kB 35.8 kB/s eta 0:00:00
+#9 84.92 Downloading pyee-12.0.0-py3-none-any.whl (14 kB)
+#9 85.09 Downloading Protego-0.3.1-py2.py3-none-any.whl (8.5 kB)
+#9 85.26 Downloading PyDispatcher-2.0.7-py3-none-any.whl (12 kB)
+#9 85.40 Downloading pyOpenSSL-24.2.1-py3-none-any.whl (58 kB)
+#9 85.54 Downloading queuelib-1.7.0-py2.py3-none-any.whl (13 kB)
+#9 85.68 Downloading service_identity-24.1.0-py3-none-any.whl (12 kB)
+#9 85.83 Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+#9 85.97 Downloading Twisted-22.10.0-py3-none-any.whl (3.1 MB)
+#9 86.60    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 4.8 MB/s eta 0:00:00
+#9 86.62 Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+#9 86.72 Downloading w3lib-2.2.1-py3-none-any.whl (21 kB)
+#9 86.81 Downloading zope.interface-7.0.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (266 kB)
+#9 86.97 Downloading et_xmlfile-1.1.0-py3-none-any.whl (4.7 kB)
+#9 87.14 Downloading packaging-24.1-py3-none-any.whl (53 kB)
+#9 87.28 Downloading setuptools-75.1.0-py3-none-any.whl (1.2 MB)
+#9 87.61    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 3.4 MB/s eta 0:00:00
+#9 87.63 Downloading tldextract-5.1.2-py3-none-any.whl (97 kB)
+#9 87.76 Downloading attrs-24.2.0-py3-none-any.whl (63 kB)
+#9 87.91 Downloading Automat-24.8.1-py3-none-any.whl (42 kB)
+#9 88.05 Downloading cffi-1.17.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (478 kB)
+#9 88.28 Downloading constantly-23.10.4-py3-none-any.whl (13 kB)
+#9 91.13 Downloading filelock-3.16.1-py3-none-any.whl (16 kB)
+#9 91.29 Downloading hyperlink-21.0.0-py2.py3-none-any.whl (74 kB)
+#9 91.44 Downloading incremental-24.7.2-py3-none-any.whl (20 kB)
+#9 91.56 Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+#9 91.69 Downloading requests_file-2.1.0-py2.py3-none-any.whl (4.2 kB)
+#9 91.85 Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+#9 91.99 Downloading pyasn1-0.6.1-py3-none-any.whl (83 kB)
+#9 92.12 Downloading pyasn1_modules-0.4.1-py3-none-any.whl (181 kB)
+#9 92.30 Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+#9 92.69 Installing collected packages: PyDispatcher, w3lib, urllib3, typing-extensions, six, setuptools, redis, queuelib, pycparser, pyasn1, protego, packaging, numpy, lxml, jmespath, itemadapter, idna, greenlet, filelock, et-xmlfile, cssselect, constantly, charset-normalizer, certifi, Automat, attrs, zope.interface, requests, pyee, pyasn1-modules, parsel, openpyxl, incremental, hyperlink, cffi, Twisted, requests-file, playwright, itemloaders, cryptography, tldextract, service-identity, pyOpenSSL, playwright-stealth, Scrapy, scrapy-redis, scrapy-playwright
+#9 111.5 Successfully installed Automat-24.8.1 PyDispatcher-2.0.7 Scrapy-2.11.0 Twisted-22.10.0 attrs-24.2.0 certifi-2024.8.30 cffi-1.17.1 charset-normalizer-3.3.2 constantly-23.10.4 cryptography-43.0.1 cssselect-1.2.0 et-xmlfile-1.1.0 filelock-3.16.1 greenlet-3.0.3 hyperlink-21.0.0 idna-3.10 incremental-24.7.2 itemadapter-0.9.0 itemloaders-1.3.1 jmespath-1.0.1 lxml-5.3.0 numpy-1.26.1 openpyxl-3.1.2 packaging-24.1 parsel-1.9.1 playwright-1.47.0 playwright-stealth-1.0.6 protego-0.3.1 pyOpenSSL-24.2.1 pyasn1-0.6.1 pyasn1-modules-0.4.1 pycparser-2.22 pyee-12.0.0 queuelib-1.7.0 redis-5.0.1 requests-2.32.3 requests-file-2.1.0 scrapy-playwright-0.0.41 scrapy-redis-0.9.1 service-identity-24.1.0 setuptools-75.1.0 six-1.16.0 tldextract-5.1.2 typing-extensions-4.12.2 urllib3-2.2.3 w3lib-2.2.1 zope.interface-7.0.3
+#9 111.5 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Cannot contact mypi: java.lang.InterruptedException
+#9 DONE 402.5s
+
+#10 [6/7] RUN if [ "false" = "true" ] || [ "false" = true ]; then         playwright install chromium &&         apt-get update &&         apt-get install -y             libglib2.0-0             libnss3             libnspr4             libdbus-1-3             libatk1.0-0             libatk-bridge2.0-0             libdrm2             libxcb1             libxkbcommon0             libgbm1             libpango-1.0-0             libxcomposite1            libxdamage1            libxrandr2            libasound2            libxfixes3            libcups2            libcairo2 &&         apt-get clean &&         rm -rf /var/lib/apt/lists/*     else         echo "Not installing Playwright dependencies";     fi
+#10 DONE 6.4s
+
+#11 [7/7] COPY ./generic /generic/
+#11 DONE 1.8s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 4.1s done
+#12 writing image sha256:80fb1b0c0caea4afbe48c131c3e859ec7df21bd339e2abf0712f42b6267b680c 0.1s done
+#12 naming to docker.io/alexshrugged92/apple_jobs:5ef383f
+#12 naming to docker.io/alexshrugged92/apple_jobs:5ef383f 0.2s done
+#12 DONE 4.6s
+[8mha:////4O8pFOd1lZ1Ar3qFMQ8TF3TsPLTM6twXECEubEVDOGz5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bqph/Ve+AAAA[0m[Pipeline] }
+[8mha:////4FvGm80nlTAvY2bm+9Ii7HOl1PuqhF5sacMmgKsgqqQ0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGsJ8UCvgAAAA==[0m[Pipeline] // script
+[8mha:////4Df2+EfZoSU3KxmmxN7P2X9bMuudttCKe7xcEVCLkDxpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKUu/2ntm/vpZSEvgAAAA==[0m[Pipeline] }
+[8mha:////4HJZEA/RwUCj1JlOtFHlpmgStqqpftEb/O1qfr+I29ONAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHwJ8HWvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ixchs1HSdmtf08HvvcPFUrYwKE+AEhjCvac8bOjslWXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUhMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WXbbz7P6g0rKqlLwgAAAA==[0m[Pipeline] stage
+[8mha:////4I9RVF0HUeRDoNciWBBffECrHuj39yAAXYRbw7m0G2FkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] { (Push)
+[8mha:////4GUClGytTshL6YsTgFPE2pmdeWftRKJTgEgDQDSCsG6qAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] script
+[8mha:////4KZ9dVXrulv0DVqGZRnDCq6xBj9/v33IR/WM7M/zPSxdAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] {
+[8mha:////4JKQmji5UTg7xwf0RTBKKGU8D2y7Jqm0KKZH3JN0KglwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] withEnv
+[8mha:////4HshGxLIUsQpe8wsT2VxhY9tAs/VHbfAKv4AGkZKkekUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAZRHx0bCAAAA[0m[Pipeline] {
+[8mha:////4OcaccqC9JtpjKwHIB7R+U7FukctiUT6NrTk9pEAz8VzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0ogtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+urdAcIAAAA=[0m[Pipeline] withDockerRegistry
+Using the existing docker config file.Removing blacklisted property: auths$ docker login -u alexshrugged92 -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /home/mypi/workspace/scrapy-pipeline/scrapy-pipeline-build-image@tmp/f60b831b-123f-428d-8da1-3a03f94b3c12/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credential-stores
+
+Login Succeeded
+[8mha:////4NgDTF+011Ca1X3yaOok6kCCtZF6mg7VMM620kafZuhuAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] {
+[8mha:////4HIjDOcOUNYff2yDqq15iYQimjJQxgT3Roj5aK3eeQUvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBonA3qO+AAAA[0m[Pipeline] echo
+Logged in to docker...
+[8mha:////4C9EolJkay28WygpPjidnMwJGgXEW1LWzi6pP8DNXZC4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBsjxxbq+AAAA[0m[Pipeline] isUnix
+[8mha:////4KmGE530NQqui6k87XazC4VlXzAoD2XZ0LL4foVE0GbNAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUiQ6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpT7Jluz+zyrN5K7nynCAAAA[0m[Pipeline] withEnv
+[8mha:////4CRzE6Jxzaj4JNtHjKdP6DBLqvaWYB/16iCiSAbSvkLvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] {
+[8mha:////4KhZvB8Ee6TXEQBLvlLgwN4vdtlYWlilECj+uw3H2fyyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5B3ife+AAAA[0m[Pipeline] sh
++ docker tag alexshrugged92/apple_jobs:5ef383f alexshrugged92/apple_jobs:5ef383f
+[8mha:////4EKWWrpIq5Rbf/9OJ1hiXs4I0J0mNq+/jfIv+IAsVH+AAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgE9d/PSvgAAAA==[0m[Pipeline] }
+[8mha:////4Gcy2qYeN0UAggtdO1J8Q9dN+XMTaapXNvs0ZCwvz/s2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgUSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgETd/G4vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4F63Ysk19eic6coGGuQjnPAiyp4kI9r7VvJ7+CdhLQ1pAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKA91rnrvP/PUshe+AAAA[0m[Pipeline] isUnix
+[8mha:////4Bxi3jndKF4rCWyk6hGdWE/ym09P4GDiN36CBoU7p2nfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0awfExBp14QQhDSFp9H+bpLQTJ+Jq3IFAJSY8WLYl6z1fUMYARwqGO429xagsH/xkcuIzhf7qaeaOLlwRRvKat3puqdOntbaUNKwqGGwEbDUqT9GiSbATTt5l5SWa6pxC3g4CmO1GeEAhMjnJkL5lCbC/TV0k/HH+AmAZErC6ydbUn2f5Bo9Yxv/CAAAA[0m[Pipeline] withEnv
+[8mha:////4MtpAtxwhwpEHhWfegGOc7EwDf5ltmaBnmEjCb8jk2j2AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0owNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPhRixbsIAAAA=[0m[Pipeline] {
+[8mha:////4PM36paUzifWoqCzhRt0oX8fWWGxTJatCPxCexhTnVc7AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxhnHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3IKq2br4AAAA=[0m[Pipeline] sh
++ docker push alexshrugged92/apple_jobs:5ef383f
+The push refers to repository [docker.io/alexshrugged92/apple_jobs]
+39f738f36040: Preparing
+55690c098ac6: Preparing
+0e2dcaf630f8: Preparing
+9c00eed4dcd4: Preparing
+5c46dac4aac1: Preparing
+27ab00907a4f: Preparing
+4f87ac73ce8f: Preparing
+d7486c28114f: Preparing
+50f7fbe612d1: Preparing
+e644ff0c302d: Preparing
+27ab00907a4f: Waiting
+4f87ac73ce8f: Waiting
+d7486c28114f: Waiting
+50f7fbe612d1: Waiting
+e644ff0c302d: Waiting
+55690c098ac6: Pushed
+9c00eed4dcd4: Pushed
+5c46dac4aac1: Pushed
+4f87ac73ce8f: Mounted from library/python
+39f738f36040: Pushed
+d7486c28114f: Mounted from library/python
+e644ff0c302d: Layer already exists
+27ab00907a4f: Pushed
+50f7fbe612d1: Mounted from library/python
+0e2dcaf630f8: Pushed
+5ef383f: digest: sha256:43a6b8cce40951a772259434150f18680a07dcc56f2454a4e2abefe0a40763e0 size: 2408
+[8mha:////4NsHQln9Ygn/gHf2EHbT4P0upNEPOpGPhH5qs2IU5SjyAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZhzHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3bvELmr4AAAA=[0m[Pipeline] }
+[8mha:////4M5YLfL/kZx+y8OrySpRAoeOhujrYchw/WGQyS9iOn3WAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wHZ4Es8vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4K35Sxj7WbDRKylmSK9mkvZiiYw+UUlTV/COajkKkcd/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGkBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrl2+w+rMguZvgAAAA==[0m[Pipeline] }
+[8mha:////4EfUOylkiZzVTZv7Qcz7BJHeDfX1NGYxY15DtKShUXHfAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRKCIkRJXWSsMLTHwYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHI3qkwVLsrPBuNHmJicNwdTyJni+iY4rsULQ4tayxWbDlhLCkKGElYYPUOY6WTIKt7NVDVU6Rqc4p5O8oobT6Dk8oZDYnFdIX5gC726gj08/zVwCz9wnKwz5XXX8Ak3CYaL4AAAA=[0m[Pipeline] // withDockerRegistry
+[8mha:////4B972SeMZkvd5YApLJRJGmWg72oAKuWbajPpac9tg5wJAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AjPLNOr4AAAA=[0m[Pipeline] }
+[8mha:////4M+J4ElLahoOqKH0lFQUHcdCH8r98wM3CYAM2k5xnKIcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSRAgJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w+i8s9QvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4OMUn6MjnyUd/yLu6g49xMlvSvHRFdetlvGlKbalmEaQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334ApLT3Bb4AAAA=[0m[Pipeline] }
+[8mha:////4OzjuyjBuP0ldKyRJe0efowCVuJ5CxzqKtFjoisitu5iAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRKCIkRJXWSsMLTHwYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHI3qkwVLsrPBuNHmJicNwdTyJni+iY4rsULQ4tayxWbDlhLCkKGElYYPUOY6WTIKt7NVDVU6Rqc4p5O8oobT6Dk8oZDYnFdIX5gC726gj08/zVwCz9wnKQ52r3n8AnPZk9L4AAAA=[0m[Pipeline] // script
+[8mha:////4M2a/PDnB7LvXeaepFtRwfjqjVzED/haKwOx6g8d8/q4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGkBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w+DdDGmvgAAAA==[0m[Pipeline] }
+[8mha:////4L11t1hYTX0hXnnAWd7EgCP7itH9qsWYLAeisYhfj7EZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChSIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wHA9mAgvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LVQZNJEtBFiyTO4aV7QsxU+LHnzAcnoqjAbEjxjNTwpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRANCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7m2uw8Y4nQ9vgAAAA==[0m[Pipeline] }
+[8mha:////4EU1amSRG/FlZg5pAJ8PsXilqTJx89E07Uah6TcZ5laQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trtP/KIC8u+AAAA[0m[Pipeline] // withEnv
+[8mha:////4Onwtx8e3tlvLraeryLQ8VmJ7rgyAQ0Gw2Vdd4SV9hJVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRSoSoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AO0KXpm+AAAA[0m[Pipeline] }
+[8mha:////4NaNHL5VpSRgZ4nuIBFrlMETVXhrQWZ6oWHa2PX7EPQaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY59ptP9VIzWi+AAAA[0m[Pipeline] // withEnv
+[8mha:////4FEGknjHPohyaej5s3ulScmGK5IjZrVHQQHVqdetZLJ1AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEGIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPONO2eb0AAAA=[0m[Pipeline] }
+[8mha:////4FYDH1Op9akdTDy0LUPawo1qROaKk98wJRObUOQ0E6gTAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEGIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPi5ryVb0AAAA=[0m[Pipeline] // node
+[8mha:////4DyY0Te00GXxHhkOcCyRU7LykQwYaXrw/a8B9FqgK5R5AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkCgQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/vBNn2A62DlR+9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

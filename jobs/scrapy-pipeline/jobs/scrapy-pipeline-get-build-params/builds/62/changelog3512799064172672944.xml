@@ -1,0 +1,10 @@
+commit 537cfe5e351a15d65bf0291524c97f9ce15295ae
+tree 628e8dd86eca827447de35cc6b3d52585ed757c2
+parent a2a2a5b60c7f0d2540f49592093a2a19916bc845
+author alexneuman <alexshrugged92@gmail.com> 2024-09-21 09:32:49 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-21 09:32:49 -0700
+
+    change spider version to be combination of revision for both spider pipeline and the spider repo
+
+
+:100644 100644 b547c14ef906a8fd20e22d0616f3e7474c275cf7 358a0758bbdf1fa11b8d56d3fd085b8673e6f99a M	jenkins/Jenkinsfile-build-image

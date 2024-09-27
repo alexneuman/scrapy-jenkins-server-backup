@@ -1,0 +1,94 @@
+Started by user [8mha:////4BxAM9PRl3aGsZ0B/yHFcBIM7LxnXS7KuMi45KRkJW0lAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgZu/dLi1CL9xJTczDwAZ3pnlMAAAAA=[0mAlex
+Replayed [8mha:////4K5zvRCDSCwbchzCUAqqSZmlLwRlbkrsfUlABLhhk/7CAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgYJ/az8JP2S1OIS3ezSpNSivFQgW9/QQB8AhECwh80AAAA=[0m#10
+[8mha:////4JqsdNzBK0LSeRaQnSCAQ2Lt6BVm0CFAXcB8/qEW5yP0AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IuLDzHBhIB4z+5FdGQpT8oIqtbml8wiQjT5ORDCh0v9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4M0FQafv8bnoLV7sUkY0go3qpiONQWgB8G8lDU6FpTRqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NjtBr3KVEmN41x25JVio1E5V8GmSNEpOUtuYU5rGLw5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/test-kubernetes-11-bdvjc-vk5fr-b6hqw
+Still waiting to schedule task
+‘[8mha:////4GWQ25pZrSjTIqoNhQbuaEWG/UQ6HnMhEKn80ZyEOU15AAAAvh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyVEgZL/eT83ILSktQi/ZLU4hJVI5fs0qTUorxUIA/IMTQEEkkpZVnJQLos2zStCMQ3yygs1wcAuZ4uRu4AAAA=[0mtest-kubernetes-11-bdvjc-vk5fr-b6hqw’ is offline
+jenkins/test-kubernetes-11-bdvjc-vk5fr-b6hqw Containers jnlp,maven were terminated.
+
+- jnlp -- terminated (143)
+-----Logs-------------
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:226)
+	... 2 more
+
+Sep 25, 2024 2:23:43 AM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://localhost:8080/]
+Sep 25, 2024 2:23:43 AM hudson.remoting.Launcher$CuiListener status
+INFO: Could not locate server among [http://localhost:8080/]; waiting 10 seconds before retry
+java.io.IOException: Failed to connect to http://localhost:8080/tcpSlaveAgentListener/: Connection refused
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:229)
+	at hudson.remoting.Engine.innerRun(Engine.java:881)
+	at hudson.remoting.Engine.run(Engine.java:588)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:226)
+	... 2 more
+
+
+
+- maven -- terminated (137)
+-----Logs-------------
+
+jenkins/test-kubernetes-11-bdvjc-vk5fr-b6hqw Pod just failed.
+[8mha:////4OyJj0YplYT/dL14qy9icFj/PNdZOGZdyPek1MdupxwUAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbaWOsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/QeYbFEMvAAAAA==[0m[Pipeline] // node
+
+- jnlp -- terminated (143)
+-----Logs-------------
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:226)
+	... 2 more
+
+Sep 25, 2024 2:23:43 AM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://localhost:8080/]
+Sep 25, 2024 2:23:43 AM hudson.remoting.Launcher$CuiListener status
+INFO: Could not locate server among [http://localhost:8080/]; waiting 10 seconds before retry
+java.io.IOException: Failed to connect to http://localhost:8080/tcpSlaveAgentListener/: Connection refused
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:229)
+	at hudson.remoting.Engine.innerRun(Engine.java:881)
+	at hudson.remoting.Engine.run(Engine.java:588)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:226)
+	... 2 more
+
+
+
+- maven -- terminated (137)
+-----Logs-------------
+
+[8mha:////4JZbQkjvWkT6AqL0T6uGHMVGWHbUnxhY4VpOhyy5++MRAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmFgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHOMBdihdv8BvnU2RrwAAAA=[0m[Pipeline] }
+[8mha:////4Mh4G+mIlxoY2VWhbJj/XpapQoyVEmlv7uSqz2BegIn+AAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRb2JgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHOMBdihdv8BzHcCWrwAAAA=[0m[Pipeline] // podTemplate
+[8mha:////4LR9eJo4bjQP+A7yC4BvxC2Gf+eYePiAN1wI3Rkli9ojAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSb2BljZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/qbmUQvAAAAA==[0m[Pipeline] End of Pipeline
+Queue task was cancelled
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: b0c86127-17fb-4362-89bf-d621b50719ff
+Finished: ABORTED

@@ -1,0 +1,10 @@
+commit c2ac53514b1802222a6e521fca02c40e351e6547
+tree d29b3955fbe56b403262e5fa212fa46de91706a8
+parent 5a3384dedf194490268200f87ad56507f7da8d2d
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 18:22:35 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 18:22:35 -0700
+
+    enable redis by default
+
+
+:100644 100644 3cc53a058b1c56c0290a4bfe4715c737e6d615a9 4a408785d32e5cf540315462d93beb12bd268a52 M	generic/generic/settings_override_critical.py

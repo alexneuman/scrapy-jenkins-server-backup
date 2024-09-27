@@ -1,0 +1,13 @@
+commit 5a3384dedf194490268200f87ad56507f7da8d2d
+tree 4476c607488694ef46f9021f106abfc6b83954f8
+parent 20b79e4070c760b78131d9dcc68743613be3d5e5
+author alexneuman <alexshrugged92@gmail.com> 2024-09-20 17:20:42 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-20 17:20:42 -0700
+
+    turn on redis by default when deployed
+
+
+:100755 100755 93d005573e9e4e2d495f783220bc78c4af6ae6ed 2754fbaa64685357b1fad96775e2c7cc9338b159 M	generic/generic/settings.py
+:100644 100644 f4a9346503ca14bfd36b711ff04dd67128f8fa5e 3cc53a058b1c56c0290a4bfe4715c737e6d615a9 M	generic/generic/settings_override_critical.py
+:000000 100644 0000000000000000000000000000000000000000 5d3c65af4f27a14d2f7d0efd971a7906f371c143 A	k8s/helm/templates/ingress/ingress.yaml
+:100755 100755 947c43476103388ecfb9833e1ceac8a416697e57 947c43476103388ecfb9833e1ceac8a416697e57 R100	k8s/helm/templates/scrapy/scrapy-job.yaml	k8s/helm/templates/scrapy/scrapy-job._yaml

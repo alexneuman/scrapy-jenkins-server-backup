@@ -1,0 +1,54 @@
+commit 5ef383f617473c430c068a51fc1796a3b220cb49
+tree 1f6c76c210fef31a19001ef26dfdd297bf6380aa
+parent 1c9d9277c7097f9407417d38a16c794c9ad14f60
+author alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:18:34 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:18:34 -0700
+
+    add param PLAYWRIGHT_ENABLED to build stage
+
+
+:100644 100644 e824567c63257deec272266983510041a5ebe0d7 f711c4bccbd822ab5d1c7f40aa07145fedc918fb M	jenkins/Jenkinsfile-main
+commit 1c9d9277c7097f9407417d38a16c794c9ad14f60
+tree ba97627856313dc021b72093ca2722b88b26ca80
+parent 747657e31042109c44993a0664b429f5f6452a7e
+author alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:15:36 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:15:36 -0700
+
+    add param PLAYWRIGHT_HEADLESS to build stage
+
+
+:100644 100644 bb066ac08d35b32f701e48d3c704bbccc5695f67 dfa96dae6fee7f82bca83740846a725e232e9e45 M	jenkins/Jenkinsfile-build-image
+:100644 100644 b0fa83effa3e4e1a6dc5f3942b78e7210b084d1a e824567c63257deec272266983510041a5ebe0d7 M	jenkins/Jenkinsfile-main
+commit 747657e31042109c44993a0664b429f5f6452a7e
+tree 1dc9139f97a459d637270dbc2e9a290ed0d57b20
+parent 11d11ed1cff52e4a22460dac0edaba3d9765087c
+author alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:11:49 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:11:49 -0700
+
+    remove hardcoded PLAYWRIGHT_ENABLED from Jenkinsfile-build
+
+
+:100644 100644 dfa96dae6fee7f82bca83740846a725e232e9e45 bb066ac08d35b32f701e48d3c704bbccc5695f67 M	jenkins/Jenkinsfile-build-image
+commit 11d11ed1cff52e4a22460dac0edaba3d9765087c
+tree 78702cb9dbd95cb7dcbe27f5b443723c48c7cb5d
+parent f8639ecec790f4743e92c4157d22c279153729d4
+author alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:08:16 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-07 04:08:16 -0700
+
+    add boolean check for True to Dockerfile
+
+
+:100755 100755 162a7dd3bef923dcdc38eac0cd84af580c3f8a38 2fe34c60d72fec09a0c93816ea3a62a520600ffa M	Dockerfile
+commit f8639ecec790f4743e92c4157d22c279153729d4
+tree 9f90daeb4b967c3fba1f2d91ccecaab5ecbd307b
+parent 8ca0ebde37edd3a35524ce7ae7e05648b72967cf
+author alexneuman <alexshrugged92@gmail.com> 2024-09-06 23:10:04 -0700
+committer alexneuman <alexshrugged92@gmail.com> 2024-09-06 23:10:04 -0700
+
+    add topology to scrapy job
+
+
+:100644 100644 4b909a9008cd6837cab1b53296ac7b434bc8da62 cf51b0a62e1ad3c1c290c98e1f6e466ea7e9c430 M	jenkins/Jenkinsfile-deploy
+:100755 100755 f04584de2b21034061cf6391408bed923e0397de 947c43476103388ecfb9833e1ceac8a416697e57 M	k8s/helm/templates/scrapy/scrapy-job.yaml
+:100755 100755 89ae13a46eb1769c1e55713fa0edccd1a4e1cca0 4a22b42eb3b0cdffb2b6c38d26a2da341747a120 M	k8s/helm/values.yaml
+:100644 100644 54624704395617f3390cf84cc591f59dff0e9708 b44d64487883665b5a0b13a6130fe1449314a717 M	skaffold.yaml
